@@ -1,0 +1,5 @@
+(:name hannum
+:auto-generated t
+:type emacswiki
+:description "convert han number"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/hannum.el")

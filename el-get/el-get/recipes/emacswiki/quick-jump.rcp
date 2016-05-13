@@ -1,0 +1,5 @@
+(:name quick-jump
+:auto-generated t
+:type emacswiki
+:description "Remember current position,and jump back"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/quick-jump.el")

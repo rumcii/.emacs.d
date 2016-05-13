@@ -1,0 +1,5 @@
+(:name init-cursor-chg
+:auto-generated t
+:type emacswiki
+:description "Init for cursor-chg.el"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-cursor-chg.el")

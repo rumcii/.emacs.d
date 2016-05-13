@@ -1,0 +1,5 @@
+(:name init-less
+:auto-generated t
+:type emacswiki
+:description "Init less"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-less.el")

@@ -1,0 +1,5 @@
+(:name init-session
+:auto-generated t
+:type emacswiki
+:description "Init for session save/restore"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-session.el")

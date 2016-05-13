@@ -1,0 +1,5 @@
+(:name helm-autoload-commands
+:auto-generated t
+:type emacswiki
+:description "Search command and execute command in runtime."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/helm-autoload-commands.el")

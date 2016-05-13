@@ -1,0 +1,5 @@
+(:name elnode
+:auto-generated t
+:type emacswiki
+:description "a simple emacs async HTTP server"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/elnode.el")

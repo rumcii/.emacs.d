@@ -1,0 +1,5 @@
+(:name python-mode-utils
+:auto-generated t
+:type emacswiki
+:description "Utils for python-mode"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/python-mode-utils.el")

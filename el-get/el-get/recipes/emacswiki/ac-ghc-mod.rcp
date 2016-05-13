@@ -1,0 +1,5 @@
+(:name ac-ghc-mod
+:auto-generated t
+:type emacswiki
+:description "ac-sources:"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/ac-ghc-mod.el")

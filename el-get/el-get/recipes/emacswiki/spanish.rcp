@@ -1,0 +1,5 @@
+(:name spanish
+:auto-generated t
+:type emacswiki
+:description "is free software"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/spanish.el")

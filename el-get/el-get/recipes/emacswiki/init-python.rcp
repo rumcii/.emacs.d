@@ -1,0 +1,5 @@
+(:name init-python
+:auto-generated t
+:type emacswiki
+:description "Init python"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-python.el")

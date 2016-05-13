@@ -1,0 +1,5 @@
+(:name modeline-win
+:auto-generated t
+:type emacswiki
+:description "Highlight buffer name in mode line for selected window."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/modeline-win.el")

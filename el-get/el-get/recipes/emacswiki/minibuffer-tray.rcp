@@ -1,0 +1,5 @@
+(:name minibuffer-tray
+:auto-generated t
+:type emacswiki
+:description "Tray widget that stick right-edge of minibuffer"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/minibuffer-tray.el")

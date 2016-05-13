@@ -1,0 +1,5 @@
+(:name dired-jb-misc-extras
+:auto-generated t
+:type emacswiki
+:description "Miscellaneous extra dired related commands"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/dired-jb-misc-extras.el")

@@ -1,0 +1,5 @@
+(:name init-info
+:auto-generated t
+:type emacswiki
+:description "Init for Info-mode"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-info.el")

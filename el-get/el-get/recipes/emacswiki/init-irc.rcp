@@ -1,0 +1,5 @@
+(:name init-irc
+:auto-generated t
+:type emacswiki
+:description "Init irc"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-irc.el")

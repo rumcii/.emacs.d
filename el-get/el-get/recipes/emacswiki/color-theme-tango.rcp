@@ -1,0 +1,5 @@
+(:name color-theme-tango
+:auto-generated t
+:type emacswiki
+:description "Color theme based on Tango Palette. Created by danranx@gmail.com"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/color-theme-tango.el")

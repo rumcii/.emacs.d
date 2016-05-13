@@ -1,0 +1,5 @@
+(:name keyword-arg-macros
+:auto-generated t
+:type emacswiki
+:description "Some macros for extracting keyword args from lists"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/keyword-arg-macros.el")

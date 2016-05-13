@@ -1,0 +1,5 @@
+(:name wuxch-fontlock
+:auto-generated t
+:type emacswiki
+:description "configuration of font-lock setting."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/wuxch-fontlock.el")

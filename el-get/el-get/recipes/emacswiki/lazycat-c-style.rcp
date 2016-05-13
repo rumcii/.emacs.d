@@ -1,0 +1,5 @@
+(:name lazycat-c-style
+:auto-generated t
+:type emacswiki
+:description "C programming configuration"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/lazycat-c-style.el")

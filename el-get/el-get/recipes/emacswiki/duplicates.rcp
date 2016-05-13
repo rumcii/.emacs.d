@@ -1,0 +1,5 @@
+(:name duplicates
+:auto-generated t
+:type emacswiki
+:description "Find marked files in a dired buffer and display which ones have identical contents"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/duplicates.el")

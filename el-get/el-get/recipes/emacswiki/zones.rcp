@@ -1,0 +1,5 @@
+(:name zones
+:auto-generated t
+:type emacswiki
+:description "Zones of text - like multiple regions"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/zones.el")

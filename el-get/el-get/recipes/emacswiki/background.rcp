@@ -1,0 +1,5 @@
+(:name background
+:auto-generated t
+:type emacswiki
+:description "Background jobs in GNU Emacs"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/background.el")

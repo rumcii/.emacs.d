@@ -1,0 +1,5 @@
+(:name vala-mode
+:auto-generated t
+:type emacswiki
+:description "Vala mode derived mode"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/vala-mode.el")

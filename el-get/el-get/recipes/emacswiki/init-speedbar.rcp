@@ -1,0 +1,5 @@
+(:name init-speedbar
+:auto-generated t
+:type emacswiki
+:description "Init speedbar"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-speedbar.el")

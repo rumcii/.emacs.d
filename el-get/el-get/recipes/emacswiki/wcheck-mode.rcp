@@ -1,0 +1,5 @@
+(:name wcheck-mode
+:auto-generated t
+:type emacswiki
+:description "The wcheck-mode source code is now available at"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/wcheck-mode.el")

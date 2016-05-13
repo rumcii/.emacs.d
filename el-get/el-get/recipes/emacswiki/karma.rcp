@@ -1,0 +1,5 @@
+(:name karma
+:auto-generated t
+:type emacswiki
+:description "[http://karma-runner.github.io/ Karma] Test Runner Emacs Integration"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/karma.el")

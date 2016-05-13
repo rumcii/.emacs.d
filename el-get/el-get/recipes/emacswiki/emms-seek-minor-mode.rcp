@@ -1,0 +1,5 @@
+(:name emms-seek-minor-mode
+:auto-generated t
+:type emacswiki
+:description "emacs-seek-minor-mode.el --- like emacs-volume-minor-mode except +/- seek"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/emms-seek-minor-mode.el")

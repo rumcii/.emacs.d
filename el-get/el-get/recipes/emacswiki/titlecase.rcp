@@ -1,0 +1,5 @@
+(:name titlecase
+:auto-generated t
+:type emacswiki
+:description "convert text to title case"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/titlecase.el")

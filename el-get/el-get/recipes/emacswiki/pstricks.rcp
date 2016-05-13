@@ -1,0 +1,5 @@
+(:name pstricks
+:auto-generated t
+:type emacswiki
+:description "A proposition for a enhanced pstricks.el for using pstricks (http://tug.org/PSTricks/main.cgi/). I don't use it anymore intensively but feel free to work on it - jpgeorget"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/pstricks.el")

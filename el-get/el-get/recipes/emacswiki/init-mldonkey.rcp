@@ -1,0 +1,5 @@
+(:name init-mldonkey
+:auto-generated t
+:type emacswiki
+:description "Mldonkey \347\232\204\350\256\276\347\275\256"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-mldonkey.el")

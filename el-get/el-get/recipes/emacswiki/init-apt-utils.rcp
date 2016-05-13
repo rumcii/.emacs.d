@@ -1,0 +1,5 @@
+(:name init-apt-utils
+:auto-generated t
+:type emacswiki
+:description "Init for apt utils"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-apt-utils.el")

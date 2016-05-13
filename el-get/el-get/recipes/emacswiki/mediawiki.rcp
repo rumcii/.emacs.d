@@ -1,0 +1,5 @@
+(:name mediawiki
+:auto-generated t
+:type emacswiki
+:description "See https://github.com/hexmode/mediawiki-el for the latest version."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/mediawiki.el")

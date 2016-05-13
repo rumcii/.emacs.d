@@ -1,0 +1,5 @@
+(:name webjump-ido
+:auto-generated t
+:type emacswiki
+:description "Use ido for selecting URLs for webjump"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/webjump-ido.el")

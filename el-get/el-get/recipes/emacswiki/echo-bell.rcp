@@ -1,0 +1,5 @@
+(:name echo-bell
+:auto-generated t
+:type emacswiki
+:description "Show visual bell at right in the echo area."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/echo-bell.el")

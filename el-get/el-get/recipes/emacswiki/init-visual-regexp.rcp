@@ -1,0 +1,5 @@
+(:name init-visual-regexp
+:auto-generated t
+:type emacswiki
+:description "Init for visual regexp"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-visual-regexp.el")

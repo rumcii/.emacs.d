@@ -1,0 +1,5 @@
+(:name cyrillic-dvorak
+:auto-generated t
+:type emacswiki
+:description "$Id: cyrillic-dvorak.el,v 1.3 2005/07/07 07:06:31 kirill Exp $"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/cyrillic-dvorak.el")

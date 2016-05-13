@@ -1,0 +1,5 @@
+(:name reveal-next
+:auto-generated t
+:type emacswiki
+:description "Progressively reveal text after the cursor."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/reveal-next.el")

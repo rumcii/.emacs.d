@@ -1,0 +1,5 @@
+(:name init-doxymacs
+:auto-generated t
+:type emacswiki
+:description "Init for doxymacs"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-doxymacs.el")

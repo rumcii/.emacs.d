@@ -1,0 +1,5 @@
+(:name closure2
+:auto-generated t
+:type emacswiki
+:description "closure.el --- closures for elisp"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/closure2.el")

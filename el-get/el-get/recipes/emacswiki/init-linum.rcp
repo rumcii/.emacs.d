@@ -1,0 +1,5 @@
+(:name init-linum
+:auto-generated t
+:type emacswiki
+:description "Linum \346\250\241\345\274\217\347\232\204\350\256\276\347\275\256"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-linum.el")

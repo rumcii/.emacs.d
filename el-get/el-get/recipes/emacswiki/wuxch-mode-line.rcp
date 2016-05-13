@@ -1,0 +1,5 @@
+(:name wuxch-mode-line
+:auto-generated t
+:type emacswiki
+:description "customize mode-line"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/wuxch-mode-line.el")

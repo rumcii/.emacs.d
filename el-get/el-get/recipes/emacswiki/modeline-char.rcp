@@ -1,0 +1,5 @@
+(:name modeline-char
+:auto-generated t
+:type emacswiki
+:description "In the mode-line, show the value of the character after point."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/modeline-char.el")

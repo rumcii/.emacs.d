@@ -1,0 +1,5 @@
+(:name init-help-mode
+:auto-generated t
+:type emacswiki
+:description "Init help mode"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-help-mode.el")

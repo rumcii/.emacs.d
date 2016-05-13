@@ -1,0 +1,5 @@
+(:name wuxch-dos-unix
+:auto-generated t
+:type emacswiki
+:description "functions about dos and unix file format transport."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/wuxch-dos-unix.el")

@@ -1,0 +1,5 @@
+(:name init-yaoddmuse
+:auto-generated t
+:type emacswiki
+:description "Init yaoddmuse"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-yaoddmuse.el")

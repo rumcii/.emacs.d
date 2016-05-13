@@ -1,0 +1,5 @@
+(:name cabecera
+:auto-generated t
+:type emacswiki
+:description ", add interpreter headers and comments at beginning of script"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/cabecera.el")

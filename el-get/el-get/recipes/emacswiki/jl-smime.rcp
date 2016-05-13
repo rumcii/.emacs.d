@@ -1,0 +1,5 @@
+(:name jl-smime
+:auto-generated t
+:type emacswiki
+:description "jl-sime.el --- Improved support for S/MIME with MML and LDAP"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/jl-smime.el")

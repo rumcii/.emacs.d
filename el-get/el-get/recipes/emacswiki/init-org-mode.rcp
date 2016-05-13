@@ -1,0 +1,5 @@
+(:name init-org-mode
+:auto-generated t
+:type emacswiki
+:description "Init org mode"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-org-mode.el")

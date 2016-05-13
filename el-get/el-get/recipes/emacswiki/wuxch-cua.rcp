@@ -1,0 +1,5 @@
+(:name wuxch-cua
+:auto-generated t
+:type emacswiki
+:description "configure of CUA key definition, and some function about edit."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/wuxch-cua.el")

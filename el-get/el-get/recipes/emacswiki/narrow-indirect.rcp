@@ -1,0 +1,5 @@
+(:name narrow-indirect
+:auto-generated t
+:type emacswiki
+:description "Narrow using an indirect buffer that is a clone"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/narrow-indirect.el")

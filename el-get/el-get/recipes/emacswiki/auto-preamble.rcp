@@ -1,0 +1,5 @@
+(:name auto-preamble
+:auto-generated t
+:type emacswiki
+:description "This elisp script is deprecated now for some reason. I'll update it soon."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/auto-preamble.el")

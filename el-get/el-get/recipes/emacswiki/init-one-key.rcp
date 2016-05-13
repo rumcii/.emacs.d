@@ -1,0 +1,5 @@
+(:name init-one-key
+:auto-generated t
+:type emacswiki
+:description "Init one key"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-one-key.el")

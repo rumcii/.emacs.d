@@ -1,0 +1,5 @@
+(:name suomalainen-kalenteri
+:auto-generated t
+:type emacswiki
+:description "The Finnish calendar is now available at https://github.com/tlikonen/suomalainen-kalenteri"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/suomalainen-kalenteri.el")

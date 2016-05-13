@@ -1,0 +1,5 @@
+(:name init-rebuilder
+:auto-generated t
+:type emacswiki
+:description "Init for re-builder"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-rebuilder.el")

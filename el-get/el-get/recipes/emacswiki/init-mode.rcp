@@ -1,0 +1,5 @@
+(:name init-mode
+:auto-generated t
+:type emacswiki
+:description "File mode setup"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-mode.el")

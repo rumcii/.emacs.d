@@ -1,0 +1,5 @@
+(:name init-git
+:auto-generated t
+:type emacswiki
+:description "Init for git"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-git.el")

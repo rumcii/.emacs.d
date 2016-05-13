@@ -1,0 +1,5 @@
+(:name sync-window
+:auto-generated t
+:type emacswiki
+:description "Synchronize two side-by-side windows"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/sync-window.el")

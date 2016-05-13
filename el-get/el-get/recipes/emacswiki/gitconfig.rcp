@@ -1,0 +1,5 @@
+(:name gitconfig
+:auto-generated t
+:type emacswiki
+:description "Interface to work with [http://git-scm.com/docs/git-config git-config] variables."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/gitconfig.el")

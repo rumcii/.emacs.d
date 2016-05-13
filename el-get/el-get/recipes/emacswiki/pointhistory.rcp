@@ -1,0 +1,5 @@
+(:name pointhistory
+:auto-generated t
+:type emacswiki
+:description "Remember point positions"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/pointhistory.el")

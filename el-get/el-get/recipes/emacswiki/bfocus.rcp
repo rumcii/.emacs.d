@@ -1,0 +1,5 @@
+(:name bfocus
+:auto-generated t
+:type emacswiki
+:description "A simple addon for emacs to focus a window in a frame similar to how Blender (http://www.blender.org) does it."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/bfocus.el")

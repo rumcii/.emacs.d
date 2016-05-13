@@ -1,0 +1,5 @@
+(:name showkey
+:auto-generated t
+:type emacswiki
+:description "Show keys as you use them."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/showkey.el")

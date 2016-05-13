@@ -1,0 +1,5 @@
+(:name wuxch-register
+:auto-generated t
+:type emacswiki
+:description "store and get windows layout to and from registers"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/wuxch-register.el")

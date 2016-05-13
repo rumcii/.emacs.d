@@ -1,0 +1,5 @@
+(:name init-top
+:auto-generated t
+:type emacswiki
+:description "Init for top"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-top.el")

@@ -1,0 +1,5 @@
+(:name joc-toggle-case
+:auto-generated t
+:type emacswiki
+:description "toggle-case.el --- toggles case at point"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/joc-toggle-case.el")

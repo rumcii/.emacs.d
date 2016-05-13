@@ -1,0 +1,5 @@
+(:name sort-group-lines
+:auto-generated t
+:type emacswiki
+:description "Group lines in region matching regexps."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/sort-group-lines.el")

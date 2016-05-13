@@ -1,0 +1,5 @@
+(:name qml-mode
+:auto-generated t
+:type emacswiki
+:description "Mode for Qt QML file"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/qml-mode.el")

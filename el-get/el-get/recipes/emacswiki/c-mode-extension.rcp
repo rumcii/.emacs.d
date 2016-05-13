@@ -1,0 +1,5 @@
+(:name c-mode-extension
+:auto-generated t
+:type emacswiki
+:description "Some extension for C mode"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/c-mode-extension.el")

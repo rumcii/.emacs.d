@@ -1,0 +1,5 @@
+(:name init-golang
+:auto-generated t
+:type emacswiki
+:description "Extensions for go lang mode"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-golang.el")

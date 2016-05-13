@@ -1,0 +1,5 @@
+(:name sunrise-x-buttons
+:auto-generated t
+:type emacswiki
+:description "mouse-clickable shortcut buttons for the Sunrise Commander File Manager"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/sunrise-x-buttons.el")

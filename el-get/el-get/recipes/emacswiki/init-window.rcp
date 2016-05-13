@@ -1,0 +1,5 @@
+(:name init-window
+:auto-generated t
+:type emacswiki
+:description "Init window"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-window.el")

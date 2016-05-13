@@ -1,0 +1,5 @@
+(:name slang-mode
+:auto-generated t
+:type emacswiki
+:description "a major-mode for editing slang scripts"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/slang-mode.el")

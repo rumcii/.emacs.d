@@ -1,0 +1,5 @@
+(:name apu
+:auto-generated t
+:type emacswiki
+:description "Apropos Unicode characters."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/apu.el")

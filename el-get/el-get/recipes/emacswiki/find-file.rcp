@@ -1,0 +1,5 @@
+(:name find-file
+:auto-generated t
+:type emacswiki
+:description "find a file corresponding to this one given a pattern"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/find-file.el")

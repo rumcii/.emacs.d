@@ -1,0 +1,5 @@
+(:name wuxch-elisp-tag
+:auto-generated t
+:type emacswiki
+:description "Tag is a tiny and powerful tools for codes browse and edit just like Swiss Army Knife."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/wuxch-elisp-tag.el")

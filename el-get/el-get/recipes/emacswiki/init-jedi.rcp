@@ -1,0 +1,5 @@
+(:name init-jedi
+:auto-generated t
+:type emacswiki
+:description "Init for python"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-jedi.el")

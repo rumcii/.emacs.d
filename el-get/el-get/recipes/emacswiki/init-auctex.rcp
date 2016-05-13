@@ -1,0 +1,5 @@
+(:name init-auctex
+:auto-generated t
+:type emacswiki
+:description "AUCTeX configuration"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-auctex.el")

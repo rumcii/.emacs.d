@@ -1,0 +1,5 @@
+(:name init-generic
+:auto-generated t
+:type emacswiki
+:description "Generic config"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-generic.el")

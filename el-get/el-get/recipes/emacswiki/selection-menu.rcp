@@ -1,0 +1,5 @@
+(:name selection-menu
+:auto-generated t
+:type emacswiki
+:description "\"generic\" menu to choose one string."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/selection-menu.el")

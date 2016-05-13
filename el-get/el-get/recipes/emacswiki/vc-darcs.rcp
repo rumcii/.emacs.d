@@ -1,0 +1,5 @@
+(:name vc-darcs
+:auto-generated t
+:type emacswiki
+:description "is an emacs script that has been written by Jorgen Schaefer and Juliusz Chroboczek."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/vc-darcs.el")

@@ -1,0 +1,5 @@
+(:name init-minibuffer-tray
+:auto-generated t
+:type emacswiki
+:description "Init for minibuffer-tray.el"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-minibuffer-tray.el")

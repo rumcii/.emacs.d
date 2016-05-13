@@ -1,0 +1,5 @@
+(:name init
+:auto-generated t
+:type emacswiki
+:description "(require 'theme)"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init.el")

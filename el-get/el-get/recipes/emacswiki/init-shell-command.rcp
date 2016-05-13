@@ -1,0 +1,5 @@
+(:name init-shell-command
+:auto-generated t
+:type emacswiki
+:description "Init shell command"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-shell-command.el")

@@ -1,0 +1,5 @@
+(:name web-mode-extension
+:auto-generated t
+:type emacswiki
+:description "Extension for web-mode"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/web-mode-extension.el")

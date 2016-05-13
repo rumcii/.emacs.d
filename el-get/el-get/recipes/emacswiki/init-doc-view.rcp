@@ -1,0 +1,5 @@
+(:name init-doc-view
+:auto-generated t
+:type emacswiki
+:description "Init doc view"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-doc-view.el")

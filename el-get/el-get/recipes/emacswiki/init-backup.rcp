@@ -1,0 +1,5 @@
+(:name init-backup
+:auto-generated t
+:type emacswiki
+:description "\345\244\207\344\273\275\350\256\276\347\275\256"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-backup.el")

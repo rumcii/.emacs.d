@@ -1,0 +1,5 @@
+(:name webkit
+:auto-generated t
+:type emacswiki
+:description "Running WebKit browser in Emacs"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/webkit.el")

@@ -1,0 +1,5 @@
+(:name ido-jb-misc-extras
+:auto-generated t
+:type emacswiki
+:description "Miscellaneous extra ido related commands"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/ido-jb-misc-extras.el")

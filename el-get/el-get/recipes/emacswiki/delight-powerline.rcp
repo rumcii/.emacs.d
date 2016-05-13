@@ -1,0 +1,5 @@
+(:name delight-powerline
+:auto-generated t
+:type emacswiki
+:description "Integrate powerline.el with delight.el"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/delight-powerline.el")

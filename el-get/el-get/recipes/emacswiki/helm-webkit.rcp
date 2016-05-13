@@ -1,0 +1,5 @@
+(:name helm-webkit
+:auto-generated t
+:type emacswiki
+:description "Search browse history of emacs-webkit"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/helm-webkit.el")

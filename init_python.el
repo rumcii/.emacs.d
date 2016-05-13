@@ -1,0 +1,155 @@
+;;(setq indent-tabs-mode t)
+;;(setq python-indent 4)
+
+(add-hook 'python-mode 'run-python)
+
+;;(add-to-list 'load-path "~/.emacs.d/elisp/pymacs")
+;;(add-to-list 'load-path "~/.emacs.d/elisp/rope")
+;;(add-to-list 'load-path "~/.emacs.d/elisp/ropemacs")
+;;(add-to-list 'load-path "~/.emacs.d/elisp/ropemode")
+
+
+;; Pymacs
+(autoload 'pymacs-apply "pymacs")
+(autoload 'pymacs-call "pymacs")
+(autoload 'pymacs-eval "pymacs" nil t)
+(autoload 'pymacs-exec "pymacs" nil t)
+(autoload 'pymacs-load "pymacs" nil t)
+(autoload 'pymacs-autoload "pymacs")
+
+;;rope ropemacs
+(require 'pymacs)
+ (pymacs-load "ropemacs" "rope-")
+
+
+;;flymake
+(when (load "flymake" t) 
+     (defun flymake-pyflakes-init () 
+       (let* ((temp-file (flymake-init-create-temp-buffer-copy 
+                          'flymake-create-temp-inplace)) 
+      (local-file (file-relative-name 
+               temp-file 
+               (file-name-directory buffer-file-name)))) 
+         (list "pyflakes" (list local-file))))
+
+     (add-to-list 'flymake-allowed-file-name-masks 
+          '("\\.py\\'" flymake-pyflakes-init)))
+
+(add-hook 'find-file-hook 'flymake-find-file-hook)
+
+
+;;add flymake to mini buffer
+(defun my-flymake-show-help ()
+  (when (get-char-property (point) 'flymake-overlay)
+   (let ((help (get-char-property (point) 'help-echo)))
+    (if help (message "%s" help)))))
+
+(add-hook 'post-command-hook 'my-flymake-show-help)
+
+
+;;add autocomplete rope integration
+;;(ac-ropemacs-initialize)
+;;(add-hook 'python-mode-hook
+;;      (lambda ()
+;;    (add-to-list 'ac-sources 'ac-source-ropemacs)))
+
+
+;;yasnipped mode
+(add-to-list 'load-path
+              "~/.emacs.d/elisp/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;enable pep8
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; To enable pep8 check
+;; install pep8 checker with one of those commands
+;; sudo apt-get install pep8
+;; or
+;; sudo pip install pep8
+
+(when (load "flymake" t)
+ (defun flymake-pylint-init ()
+   (let* ((temp-file (flymake-init-create-temp-buffer-copy
+                      'flymake-create-temp-inplace))
+          (local-file (file-relative-name
+                       temp-file
+                       (file-name-directory buffer-file-name))))
+         (list "pep8" (list "--repeat" local-file))))
+
+ (add-to-list 'flymake-allowed-file-name-masks
+              '("\\.py\\'" flymake-pylint-init)))
+
+(defun my-flymake-show-help ()
+  (when (get-char-property (point) 'flymake-overlay)
+    (let ((help (get-char-property (point) 'help-echo)))
+      (if help (message "%s" help)))))
+
+(add-hook 'post-command-hook 'my-flymake-show-help)
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   (quote
+    ("8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+ '(inhibit-startup-screen t))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+
+
+;;elpy setup
+(require 'elpy)
+(defun goto-def-or-rgrep ()
+  "Go to definition of thing at point or do an rgrep in project if that fails"
+  (interactive)
+  (condition-case nil (elpy-goto-definition)
+    (error (elpy-rgrep-symbol (thing-at-point 'symbol)))))
+(global-set-key [f4] 'elpy-goto-definition)
+
+
+;; Standard Jedi.el setting
+(add-hook 'python-mode-hook 'jedi:setup)
+(setq jedi:setup-keys t)                      ; optional
+(setq jedi:complete-on-dot t)                 ; optional
+(jedi:complete)
+(jedi-mode)
+
+;; Type:
+;;     M-x package-install RET jedi RET
+;;     M-x jedi:install-server RET
+;; Then open Python file.
+
+
+;;python documentation
+;; add pylookup to your loadpath, ex) ~/.emacs.d/pylookup
+(setq pylookup-dir "~/.emacs.d/elisp/pylookup/")
+(add-to-list 'load-path pylookup-dir)
+
+;; load pylookup when compile time
+(eval-when-compile (require 'pylookup))
+
+;; set executable file and db file
+(setq pylookup-program (concat pylookup-dir "/pylookup.py"))
+(setq pylookup-db-file (concat pylookup-dir "/pylookup.db"))
+
+;; set search option if you want
+;; (setq pylookup-search-options '("--insensitive" "0" "--desc" "0"))
+
+;; to speedup, just load it on demand
+(autoload 'pylookup-lookup "pylookup"
+  "Lookup SEARCH-TERM in the Python HTML indexes." t)
+
+(autoload 'pylookup-update "pylookup" 
+  "Run pylookup-update and create the database at `pylookup-db-file'." t)
+(global-set-key [f5] 'pylookup-lookup)
+

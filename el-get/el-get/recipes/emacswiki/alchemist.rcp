@@ -1,0 +1,5 @@
+(:name alchemist
+:auto-generated t
+:type emacswiki
+:description "[http://elixir-lang.org/ Elixir] Tooling Integration Into Emacs"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/alchemist.el")

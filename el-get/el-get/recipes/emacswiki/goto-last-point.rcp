@@ -1,0 +1,5 @@
+(:name goto-last-point
+:auto-generated t
+:type emacswiki
+:description "Record and jump to the last point in the buffer."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/goto-last-point.el")

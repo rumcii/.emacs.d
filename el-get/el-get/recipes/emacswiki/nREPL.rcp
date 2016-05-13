@@ -1,0 +1,5 @@
+(:name nREPL
+:auto-generated t
+:type emacswiki
+:description "*nrepl.el* was the first Emacs client for nREPL, the Clojure networked REPL server, deprecating the combination of [[SLIME]] + swank-clojure."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/nREPL.el")

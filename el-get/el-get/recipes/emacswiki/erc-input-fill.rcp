@@ -1,0 +1,5 @@
+(:name erc-input-fill
+:auto-generated t
+:type emacswiki
+:description "Hack to get fill mode to work correctly for ERC input"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/erc-input-fill.el")

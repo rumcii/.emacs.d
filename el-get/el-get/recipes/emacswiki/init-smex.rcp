@@ -1,0 +1,5 @@
+(:name init-smex
+:auto-generated t
+:type emacswiki
+:description "Init for smex"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-smex.el")

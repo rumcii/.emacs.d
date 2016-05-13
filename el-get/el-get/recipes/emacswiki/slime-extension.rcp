@@ -1,0 +1,5 @@
+(:name slime-extension
+:auto-generated t
+:type emacswiki
+:description "Extension for slime mode"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/slime-extension.el")

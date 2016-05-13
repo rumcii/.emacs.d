@@ -1,0 +1,5 @@
+(:name fastnav
+:auto-generated t
+:type emacswiki
+:description ";; fastnav.el has been moved to https://github.com/gleber/fastnav.el and can be installed via package.el from Marmalade repo"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/fastnav.el")

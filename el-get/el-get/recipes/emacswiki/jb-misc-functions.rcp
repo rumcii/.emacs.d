@@ -1,0 +1,5 @@
+(:name jb-misc-functions
+:auto-generated t
+:type emacswiki
+:description "Miscellaneous functions for keymaps & other things"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/jb-misc-functions.el")

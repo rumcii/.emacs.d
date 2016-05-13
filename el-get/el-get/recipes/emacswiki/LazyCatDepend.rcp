@@ -1,0 +1,5 @@
+(:name LazyCatDepend
+:auto-generated t
+:type emacswiki
+:description "\346\220\234\351\233\206\347\232\204\346\211\251\345\261\225\345\212\240\350\275\275"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/LazyCatDepend.el")

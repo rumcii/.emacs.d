@@ -1,0 +1,5 @@
+(:name init-tabbar
+:auto-generated t
+:type emacswiki
+:description "Init for tabbar"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-tabbar.el")

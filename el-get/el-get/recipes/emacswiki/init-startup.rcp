@@ -1,0 +1,5 @@
+(:name init-startup
+:auto-generated t
+:type emacswiki
+:description "Config load when startup"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-startup.el")

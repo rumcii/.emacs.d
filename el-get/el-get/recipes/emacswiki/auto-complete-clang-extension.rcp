@@ -1,0 +1,5 @@
+(:name auto-complete-clang-extension
+:auto-generated t
+:type emacswiki
+:description "Extension for Clang auto completion."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/auto-complete-clang-extension.el")

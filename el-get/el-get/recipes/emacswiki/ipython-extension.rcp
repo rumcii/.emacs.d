@@ -1,0 +1,5 @@
+(:name ipython-extension
+:auto-generated t
+:type emacswiki
+:description "Some extension for ipython"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/ipython-extension.el")

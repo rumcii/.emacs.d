@@ -1,0 +1,5 @@
+(:name init-indent
+:auto-generated t
+:type emacswiki
+:description "Init indent config"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-indent.el")

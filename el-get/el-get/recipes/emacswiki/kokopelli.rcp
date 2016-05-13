@@ -1,0 +1,5 @@
+(:name kokopelli
+:auto-generated t
+:type emacswiki
+:description "List function declaration and jump to it"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/kokopelli.el")

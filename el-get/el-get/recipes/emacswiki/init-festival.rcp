@@ -1,0 +1,5 @@
+(:name init-festival
+:auto-generated t
+:type emacswiki
+:description "Init festival"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-festival.el")

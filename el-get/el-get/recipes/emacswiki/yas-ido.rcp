@@ -1,0 +1,5 @@
+(:name yas-ido
+:auto-generated t
+:type emacswiki
+:description "Access yas snippets using ido"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/yas-ido.el")

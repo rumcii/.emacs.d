@@ -1,0 +1,5 @@
+(:name texmate-import
+:auto-generated t
+:type emacswiki
+:description "This has been renamed [[textmate-to-yas.el]]"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/texmate-import.el")

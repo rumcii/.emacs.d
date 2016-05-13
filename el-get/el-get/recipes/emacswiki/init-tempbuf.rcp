@@ -1,0 +1,5 @@
+(:name init-tempbuf
+:auto-generated t
+:type emacswiki
+:description "Init tempbuf"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-tempbuf.el")

@@ -1,0 +1,5 @@
+(:name defshell
+:auto-generated t
+:type emacswiki
+:description "Define inferior shells"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/defshell.el")

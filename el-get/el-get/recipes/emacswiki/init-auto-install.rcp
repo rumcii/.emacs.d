@@ -1,0 +1,5 @@
+(:name init-auto-install
+:auto-generated t
+:type emacswiki
+:description "Init for auto-install"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-auto-install.el")

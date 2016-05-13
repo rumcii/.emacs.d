@@ -1,0 +1,5 @@
+(:name w32-msgbox
+:auto-generated t
+:type emacswiki
+:description "open a message box using VBS MsgBox function"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/w32-msgbox.el")

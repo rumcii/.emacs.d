@@ -1,0 +1,5 @@
+(:name init-kill-ring-search
+:auto-generated t
+:type emacswiki
+:description "Init for kill ring search"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-kill-ring-search.el")

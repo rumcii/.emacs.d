@@ -1,0 +1,5 @@
+(:name auto-save
+:auto-generated t
+:type emacswiki
+:description "Auto save files when idle"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/auto-save.el")

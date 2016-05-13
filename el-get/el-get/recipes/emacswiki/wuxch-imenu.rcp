@@ -1,0 +1,5 @@
+(:name wuxch-imenu
+:auto-generated t
+:type emacswiki
+:description "imenu config file, also for ecb"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/wuxch-imenu.el")

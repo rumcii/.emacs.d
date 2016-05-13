@@ -1,0 +1,5 @@
+(:name mee-conf
+:auto-generated t
+:type emacswiki
+:description "which package should been load??"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/mee-conf.el")

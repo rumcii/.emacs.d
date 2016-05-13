@@ -1,0 +1,5 @@
+(:name init-web-mode
+:auto-generated t
+:type emacswiki
+:description "Init web mode"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-web-mode.el")

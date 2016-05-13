@@ -1,0 +1,5 @@
+(:name zjl-hl
+:auto-generated t
+:type emacswiki
+:description "This package can highlight variables and function calling and other keywords in c"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/zjl-hl.el")

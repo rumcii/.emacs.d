@@ -1,0 +1,5 @@
+(:name onkey
+:auto-generated t
+:type emacswiki
+:description "A complicated macro to simplify global key (un)binding."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/onkey.el")

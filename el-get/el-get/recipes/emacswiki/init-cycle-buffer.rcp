@@ -1,0 +1,5 @@
+(:name init-cycle-buffer
+:auto-generated t
+:type emacswiki
+:description "Init for cycle buffer"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-cycle-buffer.el")

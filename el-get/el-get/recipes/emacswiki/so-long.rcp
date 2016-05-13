@@ -1,0 +1,5 @@
+(:name so-long
+:auto-generated t
+:type emacswiki
+:description "Say farewell to performance problems with minified code."
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/so-long.el")

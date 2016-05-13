@@ -1,0 +1,5 @@
+(:name subtitles
+:auto-generated t
+:type emacswiki
+:description "- work on .srt (subripper) subtitle files"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/subtitles.el")

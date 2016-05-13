@@ -1,0 +1,5 @@
+(:name init-sublimity
+:auto-generated t
+:type emacswiki
+:description "Init for sublimity"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/init-sublimity.el")

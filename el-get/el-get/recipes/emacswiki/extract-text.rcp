@@ -1,0 +1,5 @@
+(:name extract-text
+:auto-generated t
+:type emacswiki
+:description "Functions for extracting/scraping text from buffers"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/extract-text.el")

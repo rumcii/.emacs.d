@@ -1,0 +1,5 @@
+(:name linum-extension
+:auto-generated t
+:type emacswiki
+:description "Extension for linum mode"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/linum-extension.el")

@@ -1,0 +1,5 @@
+(:name weblogger
+:auto-generated t
+:type emacswiki
+:description "Please get a current version from https://launchpad.net/weblogger-el"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/weblogger.el")

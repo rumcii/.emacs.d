@@ -1,0 +1,5 @@
+(:name projectile-speedbar
+:auto-generated t
+:type emacswiki
+:description "projectile-speedbar --- projectile integration for speedbar"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/projectile-speedbar.el")

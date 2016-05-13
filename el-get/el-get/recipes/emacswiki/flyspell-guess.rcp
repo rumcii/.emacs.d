@@ -1,0 +1,5 @@
+(:name flyspell-guess
+:auto-generated t
+:type emacswiki
+:description "flyguess.el --- flyspell dictionary guesser (replaces flyspell-guess.el)"
+:website "https://raw.github.com/emacsmirror/emacswiki.org/master/flyspell-guess.el")
