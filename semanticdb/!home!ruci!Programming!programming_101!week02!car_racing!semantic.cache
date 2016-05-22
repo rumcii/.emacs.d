@@ -1,0 +1,138 @@
+;; Object car_racing/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "car_racing/"
+  :tables (list 
+   (semanticdb-table "car.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("Car" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [68 82])
+                            ("self" variable nil (reparse-symbol indented_block_body) [91 109])
+                            ("self" variable nil (reparse-symbol indented_block_body) [118 144]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [30 34])
+                            ("car" variable nil (reparse-symbol function_parameters) [36 39])
+                            ("model" variable nil (reparse-symbol function_parameters) [41 46])
+                            ("max_speed" variable nil (reparse-symbol function_parameters) [48 57]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [17 145])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [162 166]))                          )
+                        (reparse-symbol indented_block_body) [150 319])
+                    ("__repr__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [337 341]))                          )
+                        (reparse-symbol indented_block_body) [324 374])
+                    ("__hash__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [489 493]))                          )
+                        (reparse-symbol indented_block_body) [476 532]))                  
+                :type "class")
+                nil [1 532]))          
+    :file "car.py"
+    :pointmax 532
+    :fsize 531
+    :lastmodtime '(22337 40328 119646 963000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "championship.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("Championship" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [71 87])
+                            ("self" variable nil (reparse-symbol indented_block_body) [96 112])
+                            ("self" variable nil (reparse-symbol indented_block_body) [121 137])
+                            ("self" variable nil (reparse-symbol indented_block_body) [146 172]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [38 42])
+                            ("laps" variable nil (reparse-symbol function_parameters) [44 48])
+                            ("name" variable nil (reparse-symbol function_parameters) [50 54])
+                            ("race" variable nil (reparse-symbol function_parameters) [56 60]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [25 173])
+                    ("start" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [188 192]))                          )
+                        (reparse-symbol indented_block_body) [178 766]))                  
+                :type "class")
+                nil [1 766]))          
+    :file "championship.py"
+    :pointmax 766
+    :fsize 765
+    :lastmodtime '(22331 16297 589589 589000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "driver.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("my_exceptions" include nil nil [1 50])
+            ("Driver" type
+               (:members 
+                  ( ("nickname_list" variable nil (reparse-symbol indented_block_body) [72 90])
+                    ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [145 161])
+                            ("self" variable nil (reparse-symbol indented_block_body) [170 184])
+                            ("self" variable nil (reparse-symbol indented_block_body) [193 217])
+                            ("self" code nil (reparse-symbol indented_block_body) [226 262]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [109 113])
+                            ("name" variable nil (reparse-symbol function_parameters) [115 119])
+                            ("nickname" variable nil (reparse-symbol function_parameters) [121 129])
+                            ("car" variable nil (reparse-symbol function_parameters) [131 134]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [96 263])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [280 284]))                          )
+                        (reparse-symbol indented_block_body) [268 381])
+                    ("__eq__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [397 401])
+                            ("other" variable nil (reparse-symbol function_parameters) [403 408]))                          )
+                        (reparse-symbol indented_block_body) [386 476])
+                    ("__hash__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [494 498]))                          )
+                        (reparse-symbol indented_block_body) [481 537])
+                    ("_add_to_nickname_list" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [568 572])
+                            ("nickname" variable nil (reparse-symbol function_parameters) [574 582]))                          )
+                        (reparse-symbol indented_block_body) [542 797]))                  
+                :type "class")
+                nil [53 797]))          
+    :file "driver.py"
+    :pointmax 797
+    :fsize 796
+    :lastmodtime '(22331 16297 617590 116000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "my_exceptions.py"
+    :file "my_exceptions.py"
+    :fsize 51
+    :lastmodtime '(22331 16297 617590 116000)
+    )
+   )
+  :file "!home!ruci!Programming!programming_101!week02!car_racing!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

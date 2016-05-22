@@ -153,3 +153,8 @@
   "Run pylookup-update and create the database at `pylookup-db-file'." t)
 (global-set-key [f5] 'pylookup-lookup)
 
+;;highlight indentation mode
+(highlight-indentation-mode)
+(set-face-background 'highlight-indentation-face "#e3e3d3")
+(set-face-background 'highlight-indentation-current-column-face "#c3b3b3")
+
