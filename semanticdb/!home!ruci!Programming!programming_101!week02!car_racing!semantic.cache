@@ -30,17 +30,24 @@
                         :arguments 
                           ( ("self" variable nil (reparse-symbol function_parameters) [337 341]))                          )
                         (reparse-symbol indented_block_body) [324 374])
+                    ("__eq__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [390 394])
+                            ("other" variable nil (reparse-symbol function_parameters) [396 401]))                          )
+                        (reparse-symbol indented_block_body) [379 471])
                     ("__hash__" function
                        (:parent "dummy"
                         :arguments 
                           ( ("self" variable nil (reparse-symbol function_parameters) [489 493]))                          )
-                        (reparse-symbol indented_block_body) [476 532]))                  
+                        (reparse-symbol indented_block_body) [476 532])
+                    ("input_car_brand" function nil (reparse-symbol indented_block_body) [537 765]))                  
                 :type "class")
-                nil [1 532]))          
+                nil [1 765]))          
     :file "car.py"
-    :pointmax 532
-    :fsize 531
-    :lastmodtime '(22337 40328 119646 963000)
+    :pointmax 765
+    :fsize 764
+    :lastmodtime '(22337 45003 452421 126000)
     :unmatched-syntax 'nil
     )
    (semanticdb-table "championship.py"
@@ -130,6 +137,141 @@
     :file "my_exceptions.py"
     :fsize 51
     :lastmodtime '(22331 16297 617590 116000)
+    )
+   (semanticdb-table "racing.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("json" include nil nil [1 12])
+            ("random" include nil nil [13 26])
+            ("car" include nil nil [28 47])
+            ("driver" include nil nil [48 73])
+            ("Race" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [169 191])
+                            ("self" variable nil (reparse-symbol indented_block_body) [200 232])
+                            ("self" variable nil (reparse-symbol indented_block_body) [241 271])
+                            ("self" variable nil (reparse-symbol indented_block_body) [280 300])
+                            ("self" variable nil (reparse-symbol indented_block_body) [309 335]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [106 110])
+                            ("drivers" variable nil (reparse-symbol function_parameters) [112 119])
+                            ("crash_chance" variable nil (reparse-symbol function_parameters) [121 133])
+                            ("race_name" variable nil (reparse-symbol function_parameters) [135 144]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [93 336])
+                    ("save_file" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [386 390]))                          )
+                        (reparse-symbol indented_block_body) [372 485])
+                    ("open_file" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [525 529]))                          )
+                        (reparse-symbol indented_block_body) [511 687])
+                    ("_random_choice" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [751 755]))                          )
+                        (reparse-symbol indented_block_body) [732 888])
+                    ("_driver_crash_status" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [973 977])
+                            ("driver_crash_list" variable nil (reparse-symbol function_parameters) [979 996]))                          )
+                        (reparse-symbol indented_block_body) [948 1047])
+                    ("_populate_driver_crash_list" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1163 1167])
+                            ("driver_to_crash" variable nil (reparse-symbol function_parameters) [1169 1184]))                          )
+                        (reparse-symbol indented_block_body) [1131 1382])
+                    ("start_race" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1462 1466]))                          )
+                        (reparse-symbol indented_block_body) [1447 1776])
+                    ("_write_to_file" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1832 1836]))                          )
+                        (reparse-symbol indented_block_body) [1813 2567])
+                    ("add_driver" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2587 2591]))                          )
+                        (reparse-symbol indented_block_body) [2572 3258])
+                    ("clear_results" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [3281 3285]))                          )
+                        (reparse-symbol indented_block_body) [3263 3462]))                  
+                :type "class")
+                nil [76 3462]))          
+    :file "racing.py"
+    :pointmax 3462
+    :fsize 3461
+    :lastmodtime '(22337 35922 186053 386000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "test_driver.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("unittest" include nil nil [1 16])
+            ("car" include nil nil [18 37])
+            ("driver" include nil nil [38 63])
+            ("TestDriver" type
+               (:superclasses ("unittest.TestCase")
+                :members 
+                  ( ("setUp" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [118 122]))                          )
+                        (reparse-symbol indented_block_body) [108 261])
+                    ("test_driver_equals" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [289 293]))                          )
+                        (reparse-symbol indented_block_body) [266 525])
+                    ("test_driver_instance" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [555 559]))                          )
+                        (reparse-symbol indented_block_body) [530 619]))                  
+                :type "class")
+                nil [66 619])
+            ("if" code nil nil [620 665]))          
+    :file "test_driver.py"
+    :pointmax 665
+    :fsize 664
+    :lastmodtime '(22331 16297 617590 116000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "cli.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("CLI" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [51 67])
+                            ("self" variable nil (reparse-symbol indented_block_body) [76 164]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [30 34])
+                            ("race" variable nil (reparse-symbol function_parameters) [36 40]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [17 165]))                  
+                :type "class")
+                nil [1 174]))          
+    :file "cli.py"
+    :pointmax 172
+    :fsize 0
+    :lastmodtime '(22337 42328 1153 832000)
+    :unmatched-syntax 'nil
     )
    )
   :file "!home!ruci!Programming!programming_101!week02!car_racing!semantic.cache"

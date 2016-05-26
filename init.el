@@ -234,31 +234,32 @@
 (global-set-key "\C-j" 'newline)
 
 
-
+;;ecb configure - emacs like ide
 (add-to-list 'load-path "/home/ruci/.emacs.d/elisp/ecb/")
 (require 'ecb)
 (require 'ecb-autoloads)
 (ecb-activate)
-(global-set-key [f6] 'ecb-goto-window-directories)
-(global-set-key [f7] 'ecb-goto-window-sources)
-(global-set-key [f8] 'ecb-goto-window-methods)
-(global-set-key [f9] 'ecb-goto-window-edit-last)
+(global-set-key (kbd "C-c C-d") 'ecb-goto-window-directories)
+(global-set-key (kbd "C-c C-s") 'ecb-goto-window-sources)
+(global-set-key (kbd "C-c C-w") 'ecb-goto-window-methods)
+(global-set-key (kbd "C-c C-e") 'ecb-goto-window-edit-last)
+(global-set-key (kbd "C-c C-r") 'ecb-goto-window-history)
 
 
-(defun ecb-activated-in-selected-frame ()
-"A hack to use ECB in multiple frames. It first deactivates ECB, then
-activate it in current frame."
-(interactive)
-(let ((current-frame (selected-frame)))
-	; The frame foucs change when activating or deactivating ECB is weird, so
-	; activate current selected frame explicitly.
-	(if (and (boundp 'ecb-minor-mode) (ecb-minor-mode))
-		(ecb-deactivate)
-	)
-	(select-frame current-frame)
-	(ecb-activate)
-	)
-)
+;;(defun ecb-activated-in-selected-frame ()
+;;"A hack to use ECB in multiple frames. It first deactivates ECB, then
+;;activate it in current frame."
+;;(interactive)
+;;(let ((current-frame (selected-frame)))
+;;	; The frame foucs change when activating or deactivating ECB is weird, so
+;;	; activate current selected frame explicitly.
+;;	(if (and (boundp 'ecb-minor-mode) (ecb-minor-mode))
+;;		(ecb-deactivate)
+;;	)
+;;	(select-frame current-frame)
+;;	(ecb-activate)
+;;	)
+;;)
 
 
 ;; CEDET
