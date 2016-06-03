@@ -5,49 +5,50 @@
    (semanticdb-table "car.py"
     :major-mode 'python-mode
     :tags 
-        '( ("Car" type
+        '( ("my_exceptions" include nil nil [1 41])
+            ("Car" type
                (:members 
                   ( ("__init__" function
                        (:suite 
-                          ( ("self" variable nil (reparse-symbol indented_block_body) [68 82])
-                            ("self" variable nil (reparse-symbol indented_block_body) [91 109])
-                            ("self" variable nil (reparse-symbol indented_block_body) [118 144]))                          
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [111 125])
+                            ("self" variable nil (reparse-symbol indented_block_body) [134 152])
+                            ("self" variable nil (reparse-symbol indented_block_body) [161 187]))                          
                         :parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [30 34])
-                            ("car" variable nil (reparse-symbol function_parameters) [36 39])
-                            ("model" variable nil (reparse-symbol function_parameters) [41 46])
-                            ("max_speed" variable nil (reparse-symbol function_parameters) [48 57]))                          
+                          ( ("self" variable nil (reparse-symbol function_parameters) [73 77])
+                            ("car" variable nil (reparse-symbol function_parameters) [79 82])
+                            ("model" variable nil (reparse-symbol function_parameters) [84 89])
+                            ("max_speed" variable nil (reparse-symbol function_parameters) [91 100]))                          
                         :constructor-flag t)
-                        (reparse-symbol indented_block_body) [17 145])
+                        (reparse-symbol indented_block_body) [60 188])
                     ("__str__" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [162 166]))                          )
-                        (reparse-symbol indented_block_body) [150 319])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [205 209]))                          )
+                        (reparse-symbol indented_block_body) [193 362])
                     ("__repr__" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [337 341]))                          )
-                        (reparse-symbol indented_block_body) [324 374])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [380 384]))                          )
+                        (reparse-symbol indented_block_body) [367 417])
                     ("__eq__" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [390 394])
-                            ("other" variable nil (reparse-symbol function_parameters) [396 401]))                          )
-                        (reparse-symbol indented_block_body) [379 471])
+                          ( ("self" variable nil (reparse-symbol function_parameters) [433 437])
+                            ("other" variable nil (reparse-symbol function_parameters) [439 444]))                          )
+                        (reparse-symbol indented_block_body) [422 514])
                     ("__hash__" function
                        (:parent "dummy"
                         :arguments 
-                          ( ("self" variable nil (reparse-symbol function_parameters) [489 493]))                          )
-                        (reparse-symbol indented_block_body) [476 532])
-                    ("input_car_brand" function nil (reparse-symbol indented_block_body) [537 765]))                  
+                          ( ("self" variable nil (reparse-symbol function_parameters) [532 536]))                          )
+                        (reparse-symbol indented_block_body) [519 575])
+                    ("input_car_brand" function nil (reparse-symbol indented_block_body) [580 809]))                  
                 :type "class")
-                nil [1 765]))          
+                nil [44 809]))          
     :file "car.py"
-    :pointmax 765
-    :fsize 764
-    :lastmodtime '(22337 45003 452421 126000)
+    :pointmax 809
+    :fsize 808
+    :lastmodtime '(22347 52283 298943 556000)
     :unmatched-syntax 'nil
     )
    (semanticdb-table "championship.py"
@@ -134,9 +135,25 @@
     :unmatched-syntax 'nil
     )
    (semanticdb-table "my_exceptions.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("NameAlreadyExsistsError" type
+               (:superclasses ("Exception")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [47 51]))                  
+                :type "class")
+                nil [1 52])
+            ("EmptyNameError" type
+               (:superclasses ("Exception")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [91 95]))                  
+                :type "class")
+                nil [54 96]))          
     :file "my_exceptions.py"
-    :fsize 51
-    :lastmodtime '(22331 16297 617590 116000)
+    :pointmax 96
+    :fsize 95
+    :lastmodtime '(22347 50960 165122 683000)
+    :unmatched-syntax '((CLASS 54 . 59) ($EOI 60 . 60))
     )
    (semanticdb-table "racing.py"
     :major-mode 'python-mode
