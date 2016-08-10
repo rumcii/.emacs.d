@@ -1,0 +1,41 @@
+Install pymacs:
+
+git clone http://github.com/pinard/pymacs
+cd pymacs
+make check
+sudo make install
+
+
+In ~/.emacs.d/init.el put:
+
+;; Pymacs
+(autoload 'pymacs-apply "pymacs")
+(autoload 'pymacs-call "pymacs")
+(autoload 'pymacs-eval "pymacs" nil t)
+(autoload 'pymacs-exec "pymacs" nil t)
+(autoload 'pymacs-load "pymacs" nil t)
+(autoload 'pymacs-autoload "pymacs")
+
+
+======================================
+pip install rope ropemacs
+======================================
+
+
+# Either of these
+pip install rope
+pip install jedi
+# flake8 for code checks
+pip install flake8
+# importmagic for automatic imports
+pip install importmagic
+# and autopep8 for automatic PEP8 formatting
+pip install autopep8
+# and yapf for code formatting
+pip install yapf
+
+
+mkdir -p ~/.emacs.d/.python-environments
+virtualenv -p /usr/local/bin/python3 ~/.emacs.d/.python-environments/jedi  # or whatever your python3 path is
+# If you feel like installing the server with 'M-x jedi:install-server', also do the following
+~/.emacs.d/.python-environments/jedi/bin/pip install --upgrade ~/.emacs.d/elpa/jedi-20150109.2230/  # you might need to change the version number
