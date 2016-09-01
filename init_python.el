@@ -22,6 +22,29 @@
  (pymacs-load "ropemacs" "rope-")
 
 
+;;autocomplete config for python
+(after 'auto-complete
+       (add-to-list 'ac-dictionary-directories "~/.emacs.d/dict")
+       (setq ac-use-menu-map t)
+       (define-key ac-menu-map "\C-n" 'ac-next)
+       (define-key ac-menu-map "\C-p" 'ac-previous))
+
+(after 'auto-complete-config
+       (ac-config-default)
+       (when (file-exists-p (expand-file-name "/Users/dcurtis/.emacs.d/elisp/Pymacs"))
+         (ac-ropemacs-initialize)
+         (ac-ropemacs-setup)))
+
+(after 'auto-complete-autoloads
+       (autoload 'auto-complete-mode "auto-complete" "enable auto-complete-mode" t nil)
+       (add-hook 'python-mode-hook
+                 (lambda ()
+                   (require 'auto-complete-config)
+                   (add-to-list 'ac-sources 'ac-source-ropemacs)
+                   (auto-complete-mode))))
+
+
+
 ;;flymake
 (when (load "flymake" t) 
      (defun flymake-pyflakes-init () 

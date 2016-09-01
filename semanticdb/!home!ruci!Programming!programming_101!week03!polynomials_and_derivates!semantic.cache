@@ -1,0 +1,25 @@
+;; Object polynomials_and_derivates/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "polynomials_and_derivates/"
+  :tables
+  (list
+    (semanticdb-table "derivates.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("monom" include nil nil [1 24])
+            ("derivates" function (:arguments 
+              ( ("monoms" variable nil (reparse-symbol function_parameters) [41 47]))              ) nil [27 154])
+            ("transform_it" function (:arguments 
+              ( ("monom" variable nil (reparse-symbol function_parameters) [173 178]))              ) nil [156 433]))          
+      :file "derivates.py"
+      :pointmax 433
+      :fsize 432
+      :lastmodtime '(22318 28576 453210 179000)
+      :unmatched-syntax nil)
+    (semanticdb-table "monom.py"
+      :file "monom.py"
+      :fsize 2100
+      :lastmodtime '(22319 6562 947457 145000)))
+  :file "!home!ruci!Programming!programming_101!week03!polynomials_and_derivates!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

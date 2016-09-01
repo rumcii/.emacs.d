@@ -1,0 +1,97 @@
+;; Object bank_account/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "bank_account/"
+  :tables (list 
+   (semanticdb-table "bank_account.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("BankAccount" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [78 96])
+                            ("self" variable nil (reparse-symbol indented_block_body) [105 129])
+                            ("self" variable nil (reparse-symbol indented_block_body) [138 164])
+                            ("self" variable nil (reparse-symbol indented_block_body) [173 213])
+                            ("if" code nil (reparse-symbol indented_block_body) [223 299]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [38 42])
+                            ("name" variable nil (reparse-symbol function_parameters) [44 48])
+                            ("balance" variable nil (reparse-symbol function_parameters) [50 57])
+                            ("currency" variable nil (reparse-symbol function_parameters) [59 67]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [25 299])
+                    ("add_to_history" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [323 327])
+                            ("string" variable nil (reparse-symbol function_parameters) [329 335]))                          )
+                        (reparse-symbol indented_block_body) [304 376])
+                    ("get_currency" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [398 402]))                          )
+                        (reparse-symbol indented_block_body) [381 436])
+                    ("get_name" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [454 458]))                          )
+                        (reparse-symbol indented_block_body) [441 488])
+                    ("deposit" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [505 509])
+                            ("amount" variable nil (reparse-symbol function_parameters) [511 517]))                          )
+                        (reparse-symbol indented_block_body) [493 708])
+                    ("balance" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [725 729]))                          )
+                        (reparse-symbol indented_block_body) [713 888])
+                    ("withdraw" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [906 910])
+                            ("amount" variable nil (reparse-symbol function_parameters) [912 918]))                          )
+                        (reparse-symbol indented_block_body) [893 1300])
+                    ("transfer_to" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1321 1325])
+                            ("account" variable nil (reparse-symbol function_parameters) [1327 1334])
+                            ("amount" variable nil (reparse-symbol function_parameters) [1336 1342]))                          )
+                        (reparse-symbol indented_block_body) [1305 2080])
+                    ("history" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2097 2101]))                          )
+                        (reparse-symbol indented_block_body) [2085 2134])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2151 2155]))                          )
+                        (reparse-symbol indented_block_body) [2139 2283])
+                    ("__repr__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2301 2305]))                          )
+                        (reparse-symbol indented_block_body) [2288 2338])
+                    ("__int__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2355 2359]))                          )
+                        (reparse-symbol indented_block_body) [2343 2519]))                  
+                :type "class")
+                nil [1 2519]))          
+    :file "bank_account.py"
+    :pointmax 2519
+    :fsize 2518
+    :lastmodtime '(22311 35156 5168 414000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!ruci!Programming!101_again!bank_account!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
