@@ -1,0 +1,23 @@
+;; Object indicator-sysmonitor/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "indicator-sysmonitor/"
+  :tables (list 
+   (semanticdb-table "Makefile"
+    :major-mode 'makefile-gmake-mode
+    :tags 
+        '( ("DESTDIR" variable (:default-value ("/usr")) nil [1 14])
+            ("all" function nil nil [15 20])
+            ("install" function nil nil [21 462])
+            ("clean" function nil nil [462 575])
+            ("uninstall" function nil nil [575 733]))          
+    :file "Makefile"
+    :pointmax 760
+    :fsize 759
+    :lastmodtime '(22557 31407 0 0)
+    :unmatched-syntax '((symbol 756 . 759) (symbol 748 . 755) (symbol 742 . 747) (punctuation 740 . 741) (symbol 734 . 740) (bol 734 . 734))
+    )
+   )
+  :file "!home!ruci!git_projects!indicator-sysmonitor!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

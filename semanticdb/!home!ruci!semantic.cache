@@ -1,0 +1,41 @@
+;; Object ruci/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ruci/"
+  :tables (list 
+   (semanticdb-table "layout.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("os" include nil nil [2 11])
+            ("if" code nil nil [12 202])
+            ("get_locale" function
+               (:parent "dummy"
+                :arguments 
+                  ( ("self" variable nil (reparse-symbol function_parameters) [218 222]))                  )
+                nil [203 487])
+            ("print" code nil nil [488 511]))          
+    :file "layout.py"
+    :pointmax 512
+    :fsize 510
+    :lastmodtime '(22577 17685 611750 267000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "lang.py"
+    :major-mode 'python-mode
+    :tags 
+        '( ("subprocess" include nil nil [1 18])
+            ("re" include nil nil [19 28])
+            ("bash_command" variable nil nil [30 77])
+            ("output" variable nil nil [79 141])
+            ("match_layout" variable nil nil [143 196])
+            ("current_layout" variable nil nil [198 236]))          
+    :file "lang.py"
+    :pointmax 494
+    :fsize 493
+    :lastmodtime '(22577 22056 56112 194000)
+    :unmatched-syntax '((INDENT_BLOCK 383 . 494) (COLON 381 . 382) (ELSE 377 . 381) (INDENT_BLOCK 266 . 377) (IF 238 . 240) (STRING_LITERAL 260 . 264) (COLON 264 . 265) (INDENT_BLOCK 421 . 532) (COLON 419 . 420) (ELSE 415 . 419) (INDENT_BLOCK 304 . 415) (IF 276 . 278) (STRING_LITERAL 298 . 302) (COLON 302 . 303) ($EOI 539 . 539))
+    )
+   )
+  :file "!home!ruci!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

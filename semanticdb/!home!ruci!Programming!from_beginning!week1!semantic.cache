@@ -1,0 +1,87 @@
+;; Object week1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "week1/"
+  :tables
+  (list
+    (semanticdb-table "odd_even_interval.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("main" function nil nil [25 470])
+            ("if" code nil nil [471 509]))          
+      :file "odd_even_interval.py"
+      :pointmax 509
+      :fsize 508
+      :lastmodtime '(22578 3202 184576 728000)
+      :unmatched-syntax '((INDENT_BLOCK 320 . 392) (INDENT_BLOCK 320 . 392) (INDENT_BLOCK 320 . 378) (INDENT_BLOCK 320 . 379) (INDENT_BLOCK 320 . 377) (INDENT_BLOCK 320 . 374) (INDENT_BLOCK 320 . 371) (INDENT_BLOCK 320 . 367) (INDENT_BLOCK 320 . 347) (INDENT_BLOCK 320 . 347) (INDENT_BLOCK 320 . 341) ($EOI 40 . 40) ($EOI 32 . 32)))
+    (semanticdb-table "1_to_n_by_2.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("main" function nil nil [26 140])
+            ("if" code nil nil [142 180]))          
+      :file "1_to_n_by_2.py"
+      :pointmax 180
+      :fsize 179
+      :lastmodtime '(22578 5079 454433 312000)
+      :unmatched-syntax '(($EOI 42 . 42)))
+    (semanticdb-table "um_of_evens.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("main" function nil nil [19 194])
+            ("if" code nil nil [196 234]))          
+      :file "um_of_evens.py"
+      :pointmax 234
+      :fsize 233
+      :lastmodtime '(22578 5282 729186 491000)
+      :unmatched-syntax '((NAME 96 . 97) (IF 102 . 104) (ELSE 116 . 120) ($EOI 35 . 35)))
+    (semanticdb-table "sum_digits.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("main" function nil nil [25 259])
+            ("if" code nil nil [261 299]))          
+      :file "sum_digits.py"
+      :pointmax 299
+      :fsize 298
+      :lastmodtime '(22578 6350 988067 925000)
+      :unmatched-syntax nil)
+    (semanticdb-table "factorial.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("factorial" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [40 41]))              ) nil [26 109])
+            ("main" function nil nil [111 195])
+            ("if" code nil nil [197 235]))          
+      :file "factorial.py"
+      :pointmax 235
+      :fsize 234
+      :lastmodtime '(22578 11940 804500 559000)
+      :unmatched-syntax nil)
+    (semanticdb-table "dice_1001.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("random" include nil nil [24 50])
+            ("dice_roll" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [67 68]))              ) nil [53 126])
+            ("main" function nil nil [128 769])
+            ("if" code nil nil [771 809]))          
+      :file "dice_1001.py"
+      :pointmax 809
+      :fsize 808
+      :lastmodtime '(22578 13807 134951 138000)
+      :unmatched-syntax nil)
+    (semanticdb-table "prime_numbers.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("is_number_prime" function (:arguments 
+              ( ("number" variable nil (reparse-symbol function_parameters) [46 52]))              ) nil [26 298])
+            ("is_number_perfect" function (:arguments 
+              ( ("number" variable nil (reparse-symbol function_parameters) [322 328]))              ) nil [300 504])
+            ("main" function nil nil [506 943])
+            ("if" code nil nil [944 982]))          
+      :file "prime_numbers.py"
+      :pointmax 982
+      :fsize 981
+      :lastmodtime '(22579 35721 765263 474000)
+      :unmatched-syntax nil))
+  :file "!home!ruci!Programming!from_beginning!week1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

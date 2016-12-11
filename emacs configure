@@ -21,18 +21,20 @@ In ~/.emacs.d/init.el put:
 pip install rope ropemacs
 ======================================
 
+# optional
+pip install --upgrade setuptools
 
 # Either of these
-pip install rope
-pip install jedi
+sudo pip install rope
+sudo pip install jedi
 # flake8 for code checks
-pip install flake8
+sudo pip install flake8
 # importmagic for automatic imports
-pip install importmagic
+sudo pip install importmagic
 # and autopep8 for automatic PEP8 formatting
-pip install autopep8
+sudo pip install autopep8
 # and yapf for code formatting
-pip install yapf
+sudo pip install yapf
 
 
 mkdir -p ~/.emacs.d/.python-environments

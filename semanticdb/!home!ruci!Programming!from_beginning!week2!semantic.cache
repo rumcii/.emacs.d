@@ -1,0 +1,69 @@
+;; Object week2/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "week2/"
+  :tables
+  (list
+    (semanticdb-table "work_with_arrays.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("main" function nil nil [19 787])
+            ("if" code nil nil [789 827]))          
+      :file "work_with_arrays.py"
+      :pointmax 827
+      :fsize 826
+      :lastmodtime '(22578 14879 574753 401000)
+      :unmatched-syntax nil)
+    (semanticdb-table "divisors.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("main" function nil nil [26 450])
+            ("if" code nil nil [452 490]))          
+      :file "divisors.py"
+      :pointmax 490
+      :fsize 489
+      :lastmodtime '(22578 38165 11531 316000)
+      :unmatched-syntax nil)
+    (semanticdb-table "first_n_perfect.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("find_number_divisors" function (:arguments 
+              ( ("number" variable nil (reparse-symbol function_parameters) [51 57]))              ) nil [26 218])
+            ("is_number_perfect" function (:arguments 
+              ( ("number" variable nil (reparse-symbol function_parameters) [242 248])
+                ("divisors" variable nil (reparse-symbol function_parameters) [250 258]))              ) nil [220 296])
+            ("main" function nil nil [298 609])
+            ("if" code nil nil [611 649]))          
+      :file "first_n_perfect.py"
+      :pointmax 649
+      :fsize 648
+      :lastmodtime '(22579 29936 513702 372000)
+      :unmatched-syntax nil)
+    (semanticdb-table "twin-prime.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("is_prime_number" function (:arguments 
+              ( ("number" variable nil (reparse-symbol function_parameters) [45 51]))              ) nil [25 252])
+            ("find_twin_primes" function (:arguments 
+              ( ("number" variable nil (reparse-symbol function_parameters) [275 281]))              ) nil [254 591])
+            ("main" function nil nil [593 677])
+            ("if" code nil nil [679 717]))          
+      :file "twin-prime.py"
+      :pointmax 717
+      :fsize 716
+      :lastmodtime '(22588 50517 715213 491000)
+      :unmatched-syntax '((FOR 378 . 381) (NEWLINE 406 . 407) (DEF 204 . 207) ($EOI 208 . 208) ($EOI 58 . 58) ($EOI 29 . 29)))
+    (semanticdb-table "count_vowels.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("count_vowels" function (:arguments 
+              ( ("text" variable nil (reparse-symbol function_parameters) [43 47]))              ) nil [26 224])
+            ("main" function nil nil [226 379])
+            ("if" code nil nil [381 419]))          
+      :file "count_vowels.py"
+      :pointmax 424
+      :fsize 423
+      :lastmodtime '(22588 51292 386479 937000)
+      :unmatched-syntax '((FOR 128 . 131) (NEWLINE 142 . 143) (FOR 102 . 105) (NEWLINE 116 . 117))))
+  :file "!home!ruci!Programming!from_beginning!week2!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

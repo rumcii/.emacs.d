@@ -66,6 +66,10 @@
 (global-linum-mode t)
 
 
+;; this is optional
+;;(eval-when-compile (require 'cl))
+
+
 ;;highlight line
 (global-hl-line-mode 1)
 ;;(set-face-background 'hl-line "#3e4446")
@@ -74,12 +78,12 @@
 ;;(load-theme 'solarized-dark t)
 
 
-(add-hook 'after-make-frame-functions
-          (lambda (frame)
-            (let ((mode (if (display-graphic-p frame) 'light 'dark)))
-              (set-frame-parameter frame 'background-mode mode)
-              (set-terminal-parameter frame 'background-mode mode))
-            (enable-theme 'solarized)))
+;;(add-hook 'after-make-frame-functions
+;;          (lambda (frame)
+;;            (let ((mode (if (display-graphic-p frame) 'light 'dark)))
+;;              (set-frame-parameter frame 'background-mode mode)
+;;              (set-terminal-parameter frame 'background-mode mode))
+;;            (enable-theme 'solarized)))
 
 (require 'ido)
 (ido-mode t)
@@ -88,17 +92,17 @@
 (ac-config-default)
 
 
-(add-to-list 'load-path "~/.emacs.d/elisp/color-theme-6.6.0")
-(require 'color-theme)
-(eval-after-load "color-theme"
-  '(progn
-     (color-theme-initialize)
-     (color-theme-hober)))
+;;(add-to-list 'load-path "~/.emacs.d/elisp/color-theme-6.6.0")
+;;(require 'color-theme)
+;;(eval-after-load "color-theme"
+;;  '(progn
+;;     (color-theme-initialize)
+;;     (color-theme-hober)))
 
 
-(add-to-list 'load-path "~/.emacs.d/elisp/emacs-color-theme-solarized")
-(require 'color-theme-solarized)
-(color-theme-solarized)
+;;(add-to-list 'load-path "~/.emacs.d/elisp/emacs-color-theme-solarized")
+;;(require 'color-theme-solarized)
+;;(color-theme-solarized)
 
 ;;(add-hook 'after-make-frame-functions
 ;;          (lambda (frame)
@@ -120,15 +124,15 @@
 
 (setq-default indent-tabs-mode nil)
 (setq tab-width 4) ; or any other preferred value
-(defvaralias 'c-basic-offset 'tab-width)
-(defvaralias 'cperl-indent-level 'tab-width)
+;;(defvaralias 'c-basic-offset 'tab-width)
+;;(defvaralias 'cperl-indent-level 'tab-width)
 
 
 
 ;;neotree
 (add-to-list 'load-path "~/.emacs.d/neotree/neotree")
 (require 'neotree)
-;;(global-set-key [f9] 'neotree-toggle)
+(global-set-key [f8] 'neotree-toggle)
 
 
 ;;(server-start)
@@ -223,16 +227,16 @@
 
 
 ;;ecb configure - emacs like ide
-(add-to-list 'load-path "/home/ruci/.emacs.d/elisp/ecb/")
-(require 'ecb)
-(require 'ecb-autoloads)
-(global-set-key (kbd "C-c C-n") 'ecb-activate)
-(global-set-key (kbd "C-c C-g") 'ecb-deactivate)
-(global-set-key (kbd "C-c C-d") 'ecb-goto-window-directories)
-(global-set-key (kbd "C-c C-b") 'ecb-goto-window-sources)
-(global-set-key (kbd "C-c C-w") 'ecb-goto-window-methods)
-(global-set-key (kbd "C-c C-e") 'ecb-goto-window-edit-last)
-(global-set-key (kbd "C-c C-r") 'ecb-goto-window-history)
+;;(add-to-list 'load-path "/home/ruci/.emacs.d/elisp/ecb/")
+;;(require 'ecb)
+;;(require 'ecb-autoloads)
+;;(global-set-key (kbd "C-c C-n") 'ecb-activate)
+;;(global-set-key (kbd "C-c C-g") 'ecb-deactivate)
+;;(global-set-key (kbd "C-c C-d") 'ecb-goto-window-directories)
+;;(global-set-key (kbd "C-c C-b") 'ecb-goto-window-sources)
+;;(global-set-key (kbd "C-c C-w") 'ecb-goto-window-methods)
+;;(global-set-key (kbd "C-c C-e") 'ecb-goto-window-edit-last)
+;;(global-set-key (kbd "C-c C-r") 'ecb-goto-window-history)
 
 
 ;;(defun ecb-activated-in-selected-frame ()
@@ -252,9 +256,9 @@
 
 
 ;; CEDET
-(global-ede-mode 1)
-(require 'semantic/sb)
-(semantic-mode 1)
+;;(global-ede-mode 1)
+;;(require 'semantic/sb)
+;;(semantic-mode 1)
 
 
 (custom-set-variables

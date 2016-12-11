@@ -136,6 +136,18 @@
 ;; Then open Python file.
 
 
+;; add column indicator for python
+(add-to-list 'load-path "~/.emacs.d/fill_column_indicator")
+(require 'fill-column-indicator)
+(define-globalized-minor-mode
+ global-fci-mode fci-mode (lambda () (fci-mode 1)))
+(global-fci-mode t)
+
+
+;; show column numbers
+(setq column-number-mode t)
+
+
 ;;python documentation
 ;; add pylookup to your loadpath, ex) ~/.emacs.d/pylookup
 (setq pylookup-dir "~/.emacs.d/elisp/pylookup/")

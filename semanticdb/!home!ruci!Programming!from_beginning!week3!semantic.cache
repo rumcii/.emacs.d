@@ -1,0 +1,39 @@
+;; Object week3/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "week3/"
+  :tables
+  (list
+    (semanticdb-table "factorial.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("factorial" function (:arguments 
+              ( ("number" variable nil (reparse-symbol function_parameters) [40 46]))              ) nil [26 129])
+            ("main" function nil nil [131 269])
+            ("if" code nil nil [271 309]))          
+      :file "factorial.py"
+      :pointmax 309
+      :fsize 308
+      :lastmodtime '(22588 51769 644360 636000)
+      :unmatched-syntax nil)
+    (semanticdb-table "large_and_small.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("number_to_list" function (:arguments 
+              ( ("number" variable nil (reparse-symbol function_parameters) [45 51]))              ) nil [26 201])
+            ("list_to_number" function (:arguments 
+              ( ("arr" variable nil (reparse-symbol function_parameters) [222 225]))              ) nil [203 322])
+            ("sort_list" function (:arguments 
+              ( ("array" variable nil (reparse-symbol function_parameters) [338 343])
+                ("opt" variable nil (reparse-symbol function_parameters) [345 348]))              ) nil [324 815])
+            ("find_numbers" function (:arguments 
+              ( ("number" variable nil (reparse-symbol function_parameters) [834 840]))              ) nil [817 1225])
+            ("main" function nil nil [1227 1307])
+            ("if" code nil nil [1309 1347]))          
+      :file "large_and_small.py"
+      :pointmax 1347
+      :fsize 1366
+      :lastmodtime '(22588 54870 467193 122000)
+      :unmatched-syntax nil))
+  :file "!home!ruci!Programming!from_beginning!week3!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
