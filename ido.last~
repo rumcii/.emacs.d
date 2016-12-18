@@ -20,6 +20,8 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/ruci/Programming/bash_scripts/"
+ "/home/ruci/Programming/from_beginning/exam/"
  "/home/ruci/Programming/101_again/bank_account/"
  "/home/ruci/Programming/from_beginning/week3/"
  "/home/ruci/Programming/programming_101/week03/polynomials_and_derivates/"
@@ -40,6 +42,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "script2.sh"
+ "second.py"
  "bank_account.py"
  "factorial.py"
  "polynomials.py"
@@ -48,23 +52,29 @@
  "firstProgramme.pas"
  "reverseFiveDigtNumber.pas"
  "progr2.pas"
- "firstProgramme"
- "derivates.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/ruci/" (22608 54868 808105 452000) "Files/" ".emacs.d/" ".dbus/" ".cache/" ".ssh/" ".gnome/" ".insert-shebang.log" ".bash_history" ".python_history" "Calibre Library/" "Downloads/" "Public/" "Books/" ".fgfs/" ".gconf/" ".bash_logout" ".pam_environment" "Videos/" ".profile" ".adobe/" "git_projects/" ".macromedia/" ".bashrc" ".hardinfo/" ".local/" ".mozilla/" "./" ".sudo_as_admin_successful" "Other/" "packeges/" ".xinputrc" ".icons/" "Desktop/" "Music/" "Documents/" ".gitconfig" ".gphoto/" "Games/" ".xsession-errors.old" ".themes/" ".config/" "../" ".xsession-errors" "Pictures/" "Android/" ".dmrc" ".gnupg/" ".Xauthority" ".gksu.lock" "Templates/" "ebooks/" ".indicator-sysmonitor.json" ".ICEauthority" ".pki/" "Programming/" ".bzr.log")
+
+ ("/home/ruci/Programming/" (22608 20419 511071 552000) "hackbulgaria_repos/" "requirements.txt" "#myhtml.html#" "neshto" "101_again/" "test_repo/" "programming_0/" "tests/" "from_beginning/" "execises.py" "termcolor-1.1.0/" "temp/" "./" "#execises.py#" ".ropeproject/" "bbatsov_github/" "myhtml.html" "bash_scripts/" "java_reborn/" "phantomjs-1.9.8-linux-x86_64/" "../" "C Programming for beginners/")
+
+ ("/home/ruci/Programming/from_beginning/exam/" (22607 916 976147 51000) "loss_or_profit.py~" "second.py" "./" "../" "loss_or_profit.py")
+
+ ("/home/ruci/Programming/bash_scripts/" (22608 55839 172596 406000) "exm.sh~" "hello.sh" "hello.sh~" "./" "exm.sh" "secon.sh~" "../" "secon.sh")
+
+ ("/home/ruci/Programming/101_again/car_racing/" (22311 16537 0 0) "__pycache__/" "car.py" "race_class.py" "driver.py" "test_car.py" "race.py~" "championship.py" "test_car.py~" "test_driver.py~" "race.py" "cli.py" "./" "driver.py~" "championship.py~" "test_driver.py" "car.py~" "../" "main.py~")
+
+ ("/home/ruci/Programming/101_again/os_lib/" (22554 22492 0 0) "temp/" "./" "temp.py" "temp.py~" "../")
+
+ ("/home/ruci/Programming/from_beginning/week3/" (22598 22728 813275 428000) "lyulin_city.py" "factorial.py" "factorial.py~" "./" "large_and_small.py~" "large_and_small.py" "../" "fib_number.py" "travel.py" "fib_number.py~" "lyulin_city.py~")
+
+ ("/home/ruci/Programming/101_again/bank_account/" (22596 17412 816358 539000) "__pycache__/" "bank_account.py" ".idea/" "tests/" "./" "bank_account.py~" "exceptions.py~" "../" "exceptions.py")
+
  ("/home/ruci/Programming/101_again/bank_account/__pycache__/" (22311 16517 0 0) "./" "bank_account.cpython-34.pyc" "../")
 
- ("/home/ruci/Programming/101_again/bank_account/" (22564 3587 0 0) "__pycache__/" "bank_account.py" "#bank_account.py#" ".idea/" "tests/" "./" "bank_account.py~" "exceptions.py~" "../" ".#bank_account.py" "exceptions.py")
-
  ("/home/ruci/Programming/101_again/" (22311 16537 0 0) "bank_account/" "os_lib/" "web_crawler/" "fraction/" "cash_desk/" "polynomials_and_derivates/" "car_racing/" "mixins/" "cinema_reservation_system/" "coding_skills/" "html/" "./" "telnet.py~" "panda_net/" "../" "food_diary/" "decorators/" "telnet.py")
-
- ("/home/ruci/Programming/" (22595 57054 29632 126000) "hackbulgaria_repos/" "requirements.txt" "#myhtml.html#" "neshto" "101_again/" "test_repo/" "programming_0/" "tests/" "from_beginning/" "execises.py" "termcolor-1.1.0/" "temp/" "./" "#execises.py#" ".ropeproject/" "bbatsov_github/" "myhtml.html" "java_reborn/" "phantomjs-1.9.8-linux-x86_64/" "../" "C Programming for beginners/")
-
- ("/home/ruci/" (22596 16722 867604 34000) "Files/" "Arrow.S05E08.HDTV.x264-LOL/" ".emacs.d/" ".dbus/" ".cache/" ".ssh/" ".insert-shebang.log" ".bash_history" ".python_history" "Calibre Library/" "Downloads/" "Public/" "Books/" ".gconf/" ".bash_logout" "Videos/" ".profile" ".adobe/" "git_projects/" ".macromedia/" ".bashrc" ".hardinfo/" ".local/" ".mozilla/" "./" ".sudo_as_admin_successful" "Other/" "packeges/" ".icons/" "Desktop/" "Music/" "Documents/" ".gphoto/" "Games/" ".xsession-errors.old" ".themes/" ".config/" "../" ".xsession-errors" "Pictures/" "Android/" ".dmrc" ".gnupg/" ".Xauthority" ".gksu.lock" "Templates/" "ebooks/" ".indicator-sysmonitor.json" ".ICEauthority" ".pki/" "Programming/")
-
- ("/home/ruci/Programming/from_beginning/week3/" (22596 16966 56794 140000) "lyulin_city.py" "#factorial.py#" "factorial.py" "factorial.py~" ".#factorial.py" "./" "large_and_small.py~" "large_and_small.py" "../" "fib_number.py" "travel.py" "fib_number.py~" "lyulin_city.py~")
 
  ("/home/ruci/Programming/programming_101/week03/polynomials_and_derivates/" (22568 46219 0 0) "some.py~" "polynomials.py~" "../" "#monom.py#" "some.py" "__pycache__/" "monom.py" "./" "polynomials.py" "monom.py~")
 
@@ -72,15 +82,11 @@
 
  ("/home/ruci/Programming/101_again/cinema_reservation_system/" (22311 16527 457578 0) "settings.py" "controler.py~" "./" "../" "cli_cinema.py" "db_communicator.py~" "settings.py~" "db_communicator.py" ".#ciname_main.py" "cli_cinema.py~" "sql_data.py" "test_cinema.py" "ciname_main.py" "structure.sql" "#ciname_main.py#" "cinema/" ".#controler.py" "#controler.py#" "structure.sql~" "controler.py" "ciname_main.py~")
 
- ("/home/ruci/Programming/101_again/car_racing/" (22324 64957 318892 116000) "./" "../" "race.py" "test_driver.py~" "main.py~" "test_driver.py" "__pycache__/" "cli.py" "race_class.py" "championship.py~" "championship.py" "test_car.py~" "test_car.py" "driver.py~" "race.py~" "driver.py" "car.py~" "car.py")
-
  ("/home/ruci/Programming/101_again/html/" (22311 16527 621170 0) "./" "../" "my_first_html.html" "my_first_html.html~")
 
  ("/home/ruci/Programming/programming_101_python/week_1/" (22311 16510 983622 0) "food_1.py" "./" "../" "food.json" "food.py" "food_1.py~" "linux_commands.txt" "sum_numbers.py" "test_food.py~" "data.json" "panda3" "test_food.py" "A/" "__pycache__/" "food.py~" "food_diary_extended.py" "panda1" "test.py" "test.py~" ".ropeproject/" "1/" "generate_numbers.py" "numbers~" "test_food_diary_extended.py" "numbers" "panda2" "dush.py" "food_diary_extended.py~" "cat.py" "cat2.py" "coding_skill.py")
 
  ("/home/ruci/Programming/programming_101_python/week_0/" (22311 16510 434355 0) "./" "../" "diveintopython.py" "__pycache__/" "test_flymake.py" "test.py" "final_round.py" ".ropeproject/" "firstday.py")
-
- ("/home/ruci/Programming/101_again/os_lib/" (22311 16537 222352 0) "./" "../" "temp.py" "temp/" "temp.py~")
 
  ("/home/ruci/Programming/101_again/fraction/" (22311 16517 784798 0) "fraction.py" "./" "../" "test_fraction.py~" "fraction.py~" "__pycache__/" "test_fraction.py" "tests/")
 
