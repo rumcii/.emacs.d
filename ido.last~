@@ -2,27 +2,41 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/ruci/workspace/Calculator/" . "src/")
+ ("/home/ruci/workspace/" . "Calculator/")
+ ("/media/ruci/Files/Programming/" . "html_telerik/")
+ ("/media/ruci/" . "Files/")
+ ("/media/" . "ruci/")
  ("/home/ruci/Programming/101_again/bank_account/" . "__pycache__/")
  ("/home/ruci/Programming/programming_101/week03/" . "polynomials_and_derivates/")
  ("/home/ruci/Programming/programming_101/" . "week03/")
  ("/home/ruci/Programming/programming_101_python/" . "week_0/")
  ("/home/ruci/Programming/101_again/os_lib/" . "temp/")
  ("/home/" . "ruci/")
- ("/" . "home/")
+ ("/" . "media/")
  ("/home/ruci/Programming/101_again/" . "bank_account/")
  ("/home/ruci/Programming/programming_101_projects/first_django_day/facebook_proj/facebook/" . "website/")
  ("/home/ruci/Programming/programming_101_projects/first_django_day/facebook_proj/" . "facebook/")
  ("/home/ruci/Programming/programming_101_projects/first_django_day/" . "facebook_proj/")
  ("/home/ruci/Programming/programming_101_projects/" . "first_django_day/")
  ("/home/ruci/Programming/" . "101_again/")
- ("/home/ruci/" . "Programming/")
+ ("/home/ruci/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/media/ruci/Files/Programming/c_proramming/basic/"
+ "/media/ruci/Files/Programming/java_workspace/someFiles/"
+ "/home/ruci/workspace/Calculator/src/"
+ "/media/ruci/Files/Programming/java_workspace/Calculator/src/"
+ "/media/ruci/Files/Programming/programming_for_everybody/"
+ "/media/ruci/Files/Programming/html_telerik/social_site/"
+ "/media/ruci/Files/Programming/html_telerik/"
+ "/home/ruci/.emacs.d/"
+ "/home/ruci/Programming/101_again/bank_account/"
+ "/home/ruci/Programming/from_beginning/programming_101/week1/"
  "/home/ruci/Programming/bash_scripts/"
  "/home/ruci/Programming/from_beginning/exam/"
- "/home/ruci/Programming/101_again/bank_account/"
  "/home/ruci/Programming/from_beginning/week3/"
  "/home/ruci/Programming/programming_101/week03/polynomials_and_derivates/"
  "/home/ruci/Programming/Pascal/"
@@ -42,21 +56,55 @@
 
 ;; ----- ido-work-file-list -----
 (
- "script2.sh"
- "second.py"
- "bank_account.py"
- "factorial.py"
- "polynomials.py"
- "motocycle.pas"
- "motocycle"
- "firstProgramme.pas"
- "reverseFiveDigtNumber.pas"
- "progr2.pas"
+ "charDiffCount.c"
+ "a.out"
+ "wordCountTest.c"
+ "wordsLengthHistogram.c"
+ "countAll.c"
+ "charCounting.c"
+ "my_temp.c"
+ "temp1.c"
+ "countchar.c"
+ "inout.c"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ruci/" (22608 54868 808105 452000) "Files/" ".emacs.d/" ".dbus/" ".cache/" ".ssh/" ".gnome/" ".insert-shebang.log" ".bash_history" ".python_history" "Calibre Library/" "Downloads/" "Public/" "Books/" ".fgfs/" ".gconf/" ".bash_logout" ".pam_environment" "Videos/" ".profile" ".adobe/" "git_projects/" ".macromedia/" ".bashrc" ".hardinfo/" ".local/" ".mozilla/" "./" ".sudo_as_admin_successful" "Other/" "packeges/" ".xinputrc" ".icons/" "Desktop/" "Music/" "Documents/" ".gitconfig" ".gphoto/" "Games/" ".xsession-errors.old" ".themes/" ".config/" "../" ".xsession-errors" "Pictures/" "Android/" ".dmrc" ".gnupg/" ".Xauthority" ".gksu.lock" "Templates/" "ebooks/" ".indicator-sysmonitor.json" ".ICEauthority" ".pki/" "Programming/" ".bzr.log")
+ ("/media/ruci/Files/Programming/c_proramming/basic/" (22827 20904 569 965000) "charCounting.c" "celsiusfarenh.c" "my_temp.c" "wordsLengthHistogram.c~" "test.c" "cfforloop.c" "charCounting.c~" "hello.c" "hello.c~" "countchar.c" "test.c~" "celsiusfarenh.c~" "cfforloop.c~" "a.out" "./" "inout.c~" "../" "wordsLengthHistogram.c" "wordCountTest.c" "countAll.c" "countAll.c~" "inout.c")
+
+ ("/home/ruci/" (22824 35815 558066 405000) ".pki/" ".bash_logout" "eclipse-SDK-4.6.2-linux-gtk-x86_64.tar.gz" ".dmrc" ".hardinfo/" "PlayOnLinux's virtual drives/" ".eclipse/" ".indicator-sysmonitor.json" "./" ".insert-shebang.log" "Test/" ".mplayer/" "Downloads/" ".java/" "EA Games/" ".gphoto/" "workspace/" ".thumbnails/" ".ipython/" ".gconf/" ".sudo_as_admin_successful" ".wget-hsts" ".gnome/" ".urserver/" ".macromedia/" "Public/" ".vim/" ".gimp-2.8/" ".local/" ".mozilla/" ".bashrc" ".dbus/" ".swt/" ".xsession-errors.old" "install-gnome-themes/" ".rpmdb/" "Desktop/" "Pictures/" ".ViberPC/" ".PlayOnLinux/" ".themes/" ".wine/" ".gtk-bookmarks" ".emacs.d/" ".cache/" ".profile" ".bash_history" ".apport-ignore.xml" ".gnupg/" "Music/" "Calibre Library/" ".ICEauthority" ".xsession-errors" "Documents/" ".parallel/" ".icons/" "android-sdks/" ".gksu.lock" ".gnome2/" "Templates/" ".adobe/" ".config/" ".teeworlds/" ".scalaide/" ".android/" "Videos/" ".Xauthority" "../")
+
+ ("/home/ruci/.emacs.d/" (22826 30508 606421 78000) "init (copy).el" "init.el" "ido.last~" "emacs configure" "templates/" "init_c.el" "./" "pascal.el" "auto-save-list/" "ac-comphist.dat" "elisp/" "other_packages/" "highlight-indentation.el" "ede-projects.el" "eclim_2.6.0.jar" "init_pascal.el" "fill_column_indicator/" "el-get/" "snippets/" ".git/" "semanticdb/" ".python-environments/" "temp_init_html" "emacs1" "init_html.el" "init_python.el" "neotree/" "meghanada/" "init_js.el" "elpa/" "init_html1.el" "README.md" "ido.last" "init_java.el" "../")
+
+ ("/media/ruci/Files/Programming/java_workspace/someFiles/" (22792 4584 779038 558000) "zad1.java" "evenOrOdd.class" "checkNumber.java~" "Rectangle.class" "checkPoint.java" "bnp.java~" "checkNumber.java" "bnp.java" "ThirdBitChecker.class" "NumberActions.java~" "CheckThirdDigit.java" "checkNumber.class" "NumberActions.class" "CheckThirdDigit.java~" "checkPoint.class" "./" "bnp.class" "MoonWeight.java" "evenOrOdd.java~" "Rectangle.java~" "zad1.java~" "../" "evenOrOdd.java" "ThirdBitChecker.java" "MoonWeight.class" "checkPoint.java~" "NumberActions.java" "Rectangle.java" "CheckThirdDigit.class" "zad1.class" "MoonWeight.java~")
+
+ ("/media/ruci/Files/Programming/java_workspace/Calculator/src/" (22745 39016 149341 541000) "calc.class" "calc.java" "claculator.java~" "calc.java~" "./" "../" "claculator.class" "claculator.java")
+
+ ("/home/ruci/workspace/Calculator/src/" (22762 44647 436707 585000) "Calc.java" "./" "Calc.java~" "../")
+
+ ("/home/ruci/workspace/Calculator/" (22745 36281 730708 855000) ".classpath" "./" "bin/" "src/" ".project" ".settings/" "../")
+
+ ("/home/ruci/workspace/" (22762 44245 63977 461000) "./" "eclimd.log" "#EvenOrOdd.java#" ".#EvenOrOdd.java" ".metadata/" "EvenOrOdd.java" "Calculator/" "../")
+
+ ("/media/ruci/Files/Programming/programming_for_everybody/" (22742 15875 482944 408000) "ex_7_1.py~" "subtitles.vtt" "temp.py~" "book.pdf" "temp.py" "./" "../" "ex_7_1.py" "mbox-short.txt")
+
+ ("/media/ruci/Files/Programming/html_telerik/" (22690 20377 739028 202000) "runnersHomePage.html" "nestedLists.html" "#ruunersHmePage.html#" "htmlTables/" "temp.html" "nestedLists.html~" "runnersHomePage.html~" "task1.html" "social_site/" "./" "task1.html~" "../" "ruunersHmePage.html~")
+
+ ("/media/ruci/Files/Programming/html_telerik/social_site/" (22683 45051 139904 394000) "friends.html" "friends.html~" "profile.html" "pictures/" "home.html~" "./" "home.html" "../" "profile.html~")
+
+ ("/home/" (22670 2177 233969 461000) "ruci/" "./" "../")
+
+ ("/media/" (22670 2419 204335 42000) "ruci/" "./" "../")
+
+ ("/media/ruci/" (22673 3118 428434 608000) "bfd6a975-729e-423f-aca3-2d6464414777/" "./" "../" "Files/")
+
+ ("/media/ruci/Files/" (22671 29997 446090 346000) "Games/" "Films/" "Desktop/" "Downloads/" "Programming videos/" "git_projects/" "ebooks/" ".bashrc" ".indicator-sysmonitor.json" "dwhelper/" "Documents/" "packeges/" "./" ".emacs.d/" "Pictures/" "Programming/" "Calibre Library/" "../" "Android/" "Other/" "install.sh" "Files/" "firefox pages" "lost+found/" "Books/")
+
+ ("/media/ruci/Files/Programming/" (22673 7677 243718 296000) "hackbulgaria_repos/" "phantomjs-1.9.8-linux-x86_64/" "#myhtml.html#" "myhtml.html" "101_again/" "bbatsov_github/" "C Programming for beginners/" "termcolor-1.1.0/" "tests/" "requirements.txt" "temp/" "#execises.py#" ".ropeproject/" "execises.py" "./" "test_repo/" "html_telerik/" "neshto" "../" "programming_0/" "java_reborn/" "from_beginning/" "bash_scripts/")
+
+ ("/home/ruci/Programming/101_again/bank_account/" (22636 4740 610658 285000) "exceptions.py~" "exceptions.py" "bank_account.py" "../" "tests/" "bank_account.py~" "__pycache__/" ".idea/" "./")
+
+ ("/home/ruci/Programming/from_beginning/programming_101/week1/" (22620 23862 827539 992000) "__pycache__/" "diveintopython.py~" "diveintopython.pyc" "increase_decrease.pyc" "firstday.py" "./" "diveintopython.py" "increase_decrease.py" "firstday.pyc" "../" "firstday.py~" "increase_decrease.py~")
 
  ("/home/ruci/Programming/" (22608 20419 511071 552000) "hackbulgaria_repos/" "requirements.txt" "#myhtml.html#" "neshto" "101_again/" "test_repo/" "programming_0/" "tests/" "from_beginning/" "execises.py" "termcolor-1.1.0/" "temp/" "./" "#execises.py#" ".ropeproject/" "bbatsov_github/" "myhtml.html" "bash_scripts/" "java_reborn/" "phantomjs-1.9.8-linux-x86_64/" "../" "C Programming for beginners/")
 
@@ -69,8 +117,6 @@
  ("/home/ruci/Programming/101_again/os_lib/" (22554 22492 0 0) "temp/" "./" "temp.py" "temp.py~" "../")
 
  ("/home/ruci/Programming/from_beginning/week3/" (22598 22728 813275 428000) "lyulin_city.py" "factorial.py" "factorial.py~" "./" "large_and_small.py~" "large_and_small.py" "../" "fib_number.py" "travel.py" "fib_number.py~" "lyulin_city.py~")
-
- ("/home/ruci/Programming/101_again/bank_account/" (22596 17412 816358 539000) "__pycache__/" "bank_account.py" ".idea/" "tests/" "./" "bank_account.py~" "exceptions.py~" "../" "exceptions.py")
 
  ("/home/ruci/Programming/101_again/bank_account/__pycache__/" (22311 16517 0 0) "./" "bank_account.cpython-34.pyc" "../")
 
@@ -90,13 +136,9 @@
 
  ("/home/ruci/Programming/101_again/fraction/" (22311 16517 784798 0) "fraction.py" "./" "../" "test_fraction.py~" "fraction.py~" "__pycache__/" "test_fraction.py" "tests/")
 
- ("/home/" (22285 22303 0 0) "ciki/" "./" "../" "ruci/" "lost+found/")
-
  ("/home/ruci/Programming/programming_101/week03/" (22311 16501 452096 0) "./" "../" "polynomials_and_derivates/")
 
  ("/home/ruci/Programming/programming_101/" (22311 16501 456526 0) "./" "../" "week0/" "week03/" ".git/" "week01/" "week02/")
-
- ("/home/ruci/.emacs.d/" (22295 3176 848886 995000) "ruci-theme.el~" "ruci-theme.el" "init_html.el~" "../" "auto-save-list/" "snippets/" "ac-comphist.dat" "neotree/" "emacs1" "elpa/" "./" "init_python.el" "el-get/" "ido.last~" "init.el~" "init_html.el" ".python-environments/" "ido.last" "init.el" "init_python.el~" "elisp/")
 
  ("/home/ruci/.emacs.d/elisp/" (22295 3167 948842 863000) "ropemacs/" "color-theme-6.6.0/" "../" "emacs-color-theme-solarized_debian/" "web-mode/" "rope/" "pylookup/" "emacs-color-theme-solarized/" "./" "emacs-color-theme-solarized_original/" "yasnippet/" "theme/" "ropemode/")
 

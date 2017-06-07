@@ -8188,7 +8188,7 @@ Prompt user if TAG-NAME isn't provided."
         )
       )
      (t
-      (insert (concat "<" tag-name ">" "</" tag-name ">"))
+      (insert (concat "<" tag-name ">" "\n" "</" tag-name ">"))
       (web-mode-sb "</")
       )
      ) ;cond
