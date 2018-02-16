@@ -25,6 +25,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/ruci/"
  "/media/ruci/Files/Programming/c_proramming/basic/"
  "/media/ruci/Files/Programming/java_workspace/someFiles/"
  "/home/ruci/workspace/Calculator/src/"
@@ -48,7 +49,6 @@
  "/home/ruci/Programming/101_again/car_racing/"
  "/home/ruci/Programming/"
  "/home/ruci/Programming/101_again/cinema_reservation_system/"
- "/home/ruci/"
  "/home/ruci/Programming/programming_101_projects/first_django_day/facebook_proj/facebook/facebook/"
  "/home/ruci/Programming/programming_101_projects/first_django_day/facebook_proj/facebook/website/"
  "/home/ruci/Programming/programming_101_projects/first_django_day/facebook_proj/facebook/"
@@ -56,25 +56,25 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "my.py"
+ "#temp.py#~"
+ "#temp.py#"
+ "temp.py"
  "getLongestLine.c"
  "charactersCount.c"
  "power.c"
  "charDiffCount.c"
  "a.out"
  "wordCountTest.c"
- "wordsLengthHistogram.c"
- "countAll.c"
- "charCounting.c"
- "my_temp.c"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/ruci/" (22847 27314 996845 619000) ".IntelliJIdea2017.1/" ".pki/" ".bash_logout" "eclipse-SDK-4.6.2-linux-gtk-x86_64.tar.gz" ".dmrc" ".hardinfo/" "PlayOnLinux's virtual drives/" ".eclipse/" ".indicator-sysmonitor.json" "./" ".insert-shebang.log" ".steampid" "Test/" ".mplayer/" "Downloads/" ".java/" "EA Games/" ".gphoto/" "workspace/" ".thumbnails/" ".ipython/" ".gconf/" ".sudo_as_admin_successful" ".wget-hsts" ".gnome/" ".urserver/" ".macromedia/" "Public/" ".vim/" ".gimp-2.8/" ".local/" ".mozilla/" ".bashrc" ".dbus/" ".swt/" ".xsession-errors.old" "install-gnome-themes/" ".rpmdb/" ".codeblocks/" "Desktop/" "Pictures/" ".ViberPC/" ".PlayOnLinux/" ".themes/" ".wine/" ".steam/" ".gtk-bookmarks" ".emacs.d/" ".cache/" ".CLion2017.1/" ".profile" ".bash_history" ".apport-ignore.xml" ".gnupg/" "Music/" "Calibre Library/" ".ICEauthority" ".xsession-errors" ".gitconfig" "Documents/" "CLionProjects/" ".parallel/" ".icons/" "Steam/" ".gksu.lock" ".gnome2/" "Templates/" ".adobe/" ".config/" ".teeworlds/" ".scalaide/" ".android/" "Videos/" ".steampath" ".Xauthority" "../")
+ ("/home/ruci/" (23144 58954 14672 364000) ".mozilla/" ".emacs.d/" "Pictures/" ".cache/" "Desktop/" ".bashrc" "Public/" ".insert-shebang.log" ".Xauthority" "Videos/" ".local/" ".xsession-errors" "Templates/" ".gconf/" "arc-theme/" ".profile" ".sudo_as_admin_successful" ".bash_logout" ".config/" ".ICEauthority" ".dbus/" "Documents/" ".dmrc" "./" ".xsession-errors.old" "Downloads/" "Music/" ".bash_history" ".icons/" ".themes/" ".wget-hsts" "../")
+
+ ("/home/ruci/.emacs.d/" (23144 58368 614643 163000) "init_java.el" "init.el~" "snippets/" "emacs configure" "init_html.el" "pascal.el" "auto-save-list/" "emacs1" "init.el.before_ecb_2.40__3" "README.md" "init.el.before_ecb_2.40__1" "ac-comphist.dat" "el-get/" "init_python.el~" "init_python.el" "semanticdb/" "meghanada/" "temp_init_html" "init_html.el~" "init.el.before_ecb_2.40__4" "eclim_2.6.0.jar" "fill_column_indicator/" "init.el" "init_html1.el" "init_js.el" "other_packages/" ".python-environments/" "templates/" "ido.last" "init (copy).el" ".git/" "ruci-theme.el~" "emacs configure~" "init_pascal.el" "ruci-theme.el" "ido.last~" "elpa/" "./" "ede-projects.el" "neotree/" "init.el.before_ecb_2.40__2" "init.el.before_ecb_2.40" "highlight-indentation.el" "elisp/" "init_c.el" "../")
 
  ("/media/ruci/Files/Programming/c_proramming/basic/" (22844 34156 486799 511000) "charCounting.c" "charDiffCount.c" "celsiusfarenh.c" "my_temp.c" "wordsLengthHistogram.c~" "power.c~" "charactersCount.c~" "test.c" "power.c" "cfforloop.c" "charCounting.c~" "hello.c" "hello.c~" "countchar.c" "test.c~" "celsiusfarenh.c~" "cfforloop.c~" "a.out" "./" "inout.c~" "../" "charactersCount.c" "charDiffCount.c~" "wordsLengthHistogram.c" "wordCountTest.c" "countAll.c" "countAll.c~" "inout.c")
-
- ("/home/ruci/.emacs.d/" (22844 28449 988661 259000) "init (copy).el" "init.el" "ido.last~" "emacs configure" "templates/" "init_c.el" "./" "pascal.el" "auto-save-list/" "ac-comphist.dat" "elisp/" "other_packages/" "highlight-indentation.el" "ede-projects.el" "eclim_2.6.0.jar" "init_pascal.el" "fill_column_indicator/" "el-get/" "snippets/" ".git/" "semanticdb/" ".python-environments/" "temp_init_html" "emacs1" "init_html.el" "init_python.el" "neotree/" "meghanada/" "init_js.el" "elpa/" "init_html1.el" "README.md" "ido.last" "init_java.el" "../")
 
  ("/media/ruci/Files/Programming/java_workspace/someFiles/" (22792 4584 779038 558000) "zad1.java" "evenOrOdd.class" "checkNumber.java~" "Rectangle.class" "checkPoint.java" "bnp.java~" "checkNumber.java" "bnp.java" "ThirdBitChecker.class" "NumberActions.java~" "CheckThirdDigit.java" "checkNumber.class" "NumberActions.class" "CheckThirdDigit.java~" "checkPoint.class" "./" "bnp.class" "MoonWeight.java" "evenOrOdd.java~" "Rectangle.java~" "zad1.java~" "../" "evenOrOdd.java" "ThirdBitChecker.java" "MoonWeight.class" "checkPoint.java~" "NumberActions.java" "Rectangle.java" "CheckThirdDigit.class" "zad1.class" "MoonWeight.java~")
 
