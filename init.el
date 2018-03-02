@@ -75,41 +75,11 @@
 ;;(set-face-background 'hl-line "#3e4446")
 
 
-;;(load-theme 'solarized-dark t)
-
-
-;;(add-hook 'after-make-frame-functions
-;;          (lambda (frame)
-;;            (let ((mode (if (display-graphic-p frame) 'light 'dark)))
-;;              (set-frame-parameter frame 'background-mode mode)
-;;              (set-terminal-parameter frame 'background-mode mode))
-;;            (enable-theme 'solarized)))
-
 (require 'ido)
 (ido-mode t)
 
 
 (ac-config-default)
-
-
-;;(add-to-list 'load-path "~/.emacs.d/elisp/color-theme-6.6.0")
-;;(require 'color-theme)
-;;(eval-after-load "color-theme"
-;;  '(progn
-;;     (color-theme-initialize)
-;;     (color-theme-hober)))
-
-
-;;(add-to-list 'load-path "~/.emacs.d/elisp/emacs-color-theme-solarized")
-;;(require 'color-theme-solarized)
-;;(color-theme-solarized)
-
-;;(add-hook 'after-make-frame-functions
-;;          (lambda (frame)
-;;            (let ((mode (if (display-graphic-p frame) 'light 'dark)))
-;;              (set-frame-parameter frame 'background-mode mode)
-;;              (set-terminal-parameter frame 'background-mode mode))
-;;            (enable-theme 'solarized)))
 
 
 (defun autopair-insert-opening ()
@@ -168,7 +138,7 @@
 
 
 ;;show battery level
-(display-battery-mode 1)
+;; (display-battery-mode 1)
 
 ;;display time
 (display-time-mode 1)
@@ -185,30 +155,8 @@
 ;;(setq next-line-add-newlines t)
 
 ;;Imenu
-(global-set-key (kbd "M-i") 'ido-goto-symbol)
+;; (global-set-key (kbd "M-i") 'ido-goto-symbol)
 
-;;TAGS
-(require 'etags)
-(defun ido-find-tag ()
-  "Find a tag using ido"
-  (interactive)
-  (tags-completion-table)
-  (let (tag-names)
-    (mapc (lambda (x)
-        (unless (integerp x)
-          (push (prin1-to-string x t) tag-names)))
-      tags-completion-table)
-    (find-tag (ido-completing-read "Tag: " tag-names))))
-
-(defun ido-find-file-in-tag-files ()
-  (interactive)
-  (save-excursion
-    (let ((enable-recursive-minibuffers t))
-      (visit-tags-table-buffer))
-    (find-file
-     (expand-file-name
-      (ido-completing-read
-       "Project file: " (tags-table-files) nil t)))))
 
 (global-set-key [remap find-tag] 'ido-find-tag)
 (global-set-key (kbd "C-.") 'ido-find-file-in-tag-files)
@@ -229,49 +177,40 @@
 (global-set-key (kbd "C-h") 'delete-backward-char)
 (global-set-key (kbd "M-h") 'backward-kill-word)
 
-(global-set-key "\C-j" 'newline)
-
-
-;;ecb configure - emacs like ide
-;;(add-to-list 'load-path "/home/ruci/.emacs.d/elisp/ecb/")
-;;(require 'ecb)
-;;(require 'ecb-autoloads)
-;;(global-set-key (kbd "C-c C-n") 'ecb-activate)
-;;(global-set-key (kbd "C-c C-g") 'ecb-deactivate)
-;;(global-set-key (kbd "C-c C-d") 'ecb-goto-window-directories)
-;;(global-set-key (kbd "C-c C-b") 'ecb-goto-window-sources)
-;;(global-set-key (kbd "C-c C-w") 'ecb-goto-window-methods)
-;;(global-set-key (kbd "C-c C-e") 'ecb-goto-window-edit-last)
-;;(global-set-key (kbd "C-c C-r") 'ecb-goto-window-history)
-
-
-;;(defun ecb-activated-in-selected-frame ()
-;;"A hack to use ECB in multiple frames. It first deactivates ECB, then
-;;activate it in current frame."
-;;(interactive)
-;;(let ((current-frame (selected-frame)))
-;;	; The frame foucs change when activating or deactivating ECB is weird, so
-;;	; activate current selected frame explicitly.
-;;	(if (and (boundp 'ecb-minor-mode) (ecb-minor-mode))
-;;		(ecb-deactivate)
-;;	)
-;;	(select-frame current-frame)
-;;	(ecb-activate)
-;;	)
-;;)
-
-
-;; CEDET
-;;(global-ede-mode 1)
-;;(require 'semantic/sb)
-;;(semantic-mode 1)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(eclimd-executable nil))
+ '(compilation-message-face (quote default))
+ '(cua-global-mark-cursor-color "#2aa198")
+ '(cua-normal-cursor-color "#839496")
+ '(cua-overwrite-cursor-color "#b58900")
+ '(cua-read-only-cursor-color "#859900")
+ '(custom-enabled-themes (quote (base16-3024-dark)))
+ '(custom-safe-themes (quote ("cdfb22711f64d0e665f40b2607879fcf2607764b2b70d672ddaa26d2da13049f" default)))
+ '(eclimd-executable nil)
+ '(fci-rule-color "#073642")
+ '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
+ '(highlight-symbol-colors (--map (solarized-color-blend it "#002b36" 0.25) (quote ("#b58900" "#2aa198" "#dc322f" "#6c71c4" "#859900" "#cb4b16" "#268bd2"))))
+ '(highlight-symbol-foreground-color "#93a1a1")
+ '(highlight-tail-colors (quote (("#073642" . 0) ("#546E00" . 20) ("#00736F" . 30) ("#00629D" . 50) ("#7B6000" . 60) ("#8B2C02" . 70) ("#93115C" . 85) ("#073642" . 100))))
+ '(hl-bg-colors (quote ("#7B6000" "#8B2C02" "#990A1B" "#93115C" "#3F4D91" "#00629D" "#00736F" "#546E00")))
+ '(hl-fg-colors (quote ("#002b36" "#002b36" "#002b36" "#002b36" "#002b36" "#002b36" "#002b36" "#002b36")))
+ '(magit-diff-use-overlays nil)
+ '(nrepl-message-colors (quote ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
+ '(pos-tip-background-color "#073642")
+ '(pos-tip-foreground-color "#93a1a1")
+ '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#073642" 0.2))
+ '(term-default-bg-color "#002b36")
+ '(term-default-fg-color "#839496")
+ '(vc-annotate-background nil)
+ '(vc-annotate-color-map (quote ((20 . "#dc322f") (40 . "#e47200") (60 . "#e4ab00") (80 . "#b58900") (100 . "#e4e400") (120 . "#e4e400") (140 . "#e4e400") (160 . "#e4e400") (180 . "#859900") (200 . "#98e44c") (220 . "#72e472") (240 . "#4ce498") (260 . "#26e4be") (280 . "#2aa198") (300 . "#00e4e4") (320 . "#00e4e4") (340 . "#00e4e4") (360 . "#268bd2"))))
+ '(vc-annotate-very-old-color nil)
+ '(weechat-color-list (quote (unspecified "#002b36" "#073642" "#990A1B" "#dc322f" "#546E00" "#859900" "#7B6000" "#b58900" "#00629D" "#268bd2" "#93115C" "#d33682" "#00736F" "#2aa198" "#839496" "#657b83")))
+ '(xterm-color-names ["#073642" "#dc322f" "#859900" "#b58900" "#268bd2" "#d33682" "#2aa198" "#eee8d5"])
+ '(xterm-color-names-bright ["#002b36" "#cb4b16" "#586e75" "#657b83" "#839496" "#6c71c4" "#93a1a1" "#fdf6e3"]))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
